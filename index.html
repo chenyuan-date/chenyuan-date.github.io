@@ -1,69 +1,45 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>尘缘</title>
+---
+layout: post-index
+title: "Welcome to the Neo-HPSTR Blog"
+description: "Describe this nonsense."
+tags: [Jekyll, theme, themes, responsive, blog, modern]
+comments: false
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+{% for post in paginator.posts %}
+<article class="hentry">
+  <header>
+    {% if post.image.feature %}
+      <div class="entry-image-index">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
+        {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="without-description">
-        <h1>CHEN YUAN</h1>
-      </header>
-      <section>
-        
+      </div><!-- /.entry-image -->
+    {% endif %}
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+      {% if site.reading_time %}
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+      </span><!-- /.entry-reading-time -->
+      {% endif %}
+    </div><!-- /.entry-meta -->
+    {% if post.link %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% else %}
+      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+    {% endif %}
+  </header>
+  <div class="entry-content">
+    {% if post.content contains "<!-- more -->" %}
+    {{ post.content | split:"<!-- more -->" | first % }}
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}
 
-<p>
-  
-  我问明台如镜 是否从不屑连理<br/>
-我问传情青鸟 为何各自双飞翼<br/>
-情局与虚实对弈似无处堪避<br/>
-因我慕恋痴迷终身陷贪嗔迷局<br/><br/>
-纵情深 缘已断往事休提<br/>
-可放下 却又谈何容易<br/>
-司轮回掌六道普天释极<br/>
-问你 是否当真知晓情意<br/><br/>
-谁曾渡世人情怯 又设欢聚别离<br/>
-谁明了缘散风起 不语天机<br/>
-为何明知晓结局 却还空允我期许<br/>
-你可知那是我半生欢喜<br/><br/>
-若无情方自在 我宁为凡尘蝼蚁<br/>
-寻得白首同心人 殁于月缺星移<br/>
-天地煎熬三毒七苦众生靡靡<br/>
-只道当时正因此才有别于云泥<br/><br/>
-纵情深 缘已断往事休提<br/>
-可放下 却又谈何容易<br/>
-你金身万年不破不灭<br/>
-又怎能懂 我如此贪念朝夕<br/><br/>
-谁曾渡世人情怯 又设欢聚别离<br/>
-谁明了缘散风起 不语天机<br/>
-为何明知晓结局 却还空允我期许<br/>
-你可知那是我半生欢喜<br/>
-谁看破红尘世外 只留一声叹息<br/>
-谁怜众生凄苦 言情字当忌<br/>
-你端坐莲台参万世禅机阐灭菩提<br/>
-而我唯余下半世孤寂<br/>
-<br/>
-
-  
-</p>
-
-
-      </section>
-    </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+{% include pagination.html %}
