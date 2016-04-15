@@ -1,17 +1,17 @@
 .highlight {
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 	@include font(12);
 	color: #d0d0d0;
 	border: 1px solid darken($body-color, 5);
-	background-color: #272822;
+	background-color: #f8f8f8;
 	@include rounded(3px);
 	pre {
 		position: relative;
 		margin: 0;
 		padding: 1em;
 	}
-	.lineno { padding-right: 24px; color: #8f908a;}
-	.hll { background-color: #49483e }
+	.lineno { padding-right: 20px; color: #8f908a;}
+	.hll { background-color: #ffffcc }
 	.c { color: #75715e } /* Comment */
 	.err { color: #960050; background-color: #1e0010 } /* Error */
 	.k { color: #66d9ef } /* Keyword */
