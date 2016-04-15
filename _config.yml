@@ -1,5 +1,5 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            CHEN-YUAN
+description:      Dream for future.
 # put your disqus here
 disqus_shortname: 
 reading_time:     true # if true, shows the estimated reading time for a post
@@ -8,7 +8,7 @@ logo:             images/logo.png # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: http://chenyuan.date
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -18,10 +18,10 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: '/theme-setup/'
+  - title: 'About'
+    url: '/about'
+  - title: 'GuestBook'
+    url: '/guestbook'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
@@ -37,28 +37,28 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
+  name:           CHENYUAN
+  site:           http://chenyuan.date
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Pursuing the dream"
+  email:          cy_future@163.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  #twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  #github: aron-bordin
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
-twitter: 
+#twitter: 
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
-social:
-  - title: "github"
-    url: "https://github.com/aron-bordin"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+#social:
+#  - title: "github"
+#    url: "https://github.com/aron-bordin"
+#  - title: "linkedin"
+#    url: "https://br.linkedin.com/in/aronbordin"
+#  - title: "youtube"
+#    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 # Background image to be tiled on all pages
 background:
 
@@ -69,11 +69,13 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Hong_Kong
 locale:      en_US
 future:      true
-highlighter: rouge
+#highlighter: rouge
+highlighter: pygments
 markdown:    kramdown
+#markdown:    redcarpet
 gems:
   - jekyll-sitemap
 sass:
