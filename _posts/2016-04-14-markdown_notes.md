@@ -5,6 +5,7 @@ author: CY
 description: "test"
 tags: [markdown]
 categories: [markdown]
+share: false
 image:
   background: triangular.png
 ---
@@ -97,7 +98,7 @@ image:
 	nzX1xoVQ8NAuH+s4UcSeQ==
 
 | *Year* | *Temperature (low)* | *Temperature (high)* |
-|------|-----|----|
+|--------|---------------------|----------------------|
 | 1900 | -10 | 25 |
 | 1910 | -15 | 30 |
 | 1920 | -10 | 32 |
