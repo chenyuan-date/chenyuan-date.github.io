@@ -1,13 +1,23 @@
-#markdown简明语法(by CY)
+---
+layout: post
+title: markdown简明语法
+author: CY
+description: "test"
+tags: [markdown]
+categories: [markdown]
+image:
+  background: triangular.png
+---
 
-##1. 标题设置（让字体变大，和word的标题意思一样）
+
+## 1. 标题设置（让字体变大，和word的标题意思一样）
 在Markdown当中设置标题，有两种方式：
 
 	第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。(任何数量的 = 和 - 都可以有效果)
 	第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。(一共只有1~6级标题，1级标题字体最大)
 
-##2.强调
-斜体             
+## 2.强调
+*斜体*             
 
 	将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来(符号可跨行，符号可加空格)
 粗体
