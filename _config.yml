@@ -1,4 +1,4 @@
-title:            CHEN-YUAN
+title:            CHENYUAN
 description:      Dream for future.
 # put your disqus here
 disqus_shortname: 
@@ -20,8 +20,7 @@ menu:
     url: '/'
   - title: 'About'
     url: '/about'
-  - title: 'GuestBook'
-    url: '/guestbook'
+
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
