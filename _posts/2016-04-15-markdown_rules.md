@@ -87,12 +87,14 @@ image:
     引用方式：
 		先定义 [ref_name]:url，然后在需要写入url的地方，这样使用[锚文本][ref_name]，通常的ref_name一般用数字表示，这样显得专业
     简写url：用尖括号包裹url，这样生成的url锚文本就是url本身
+
 ## 8.images
 
 	其实和链接一样，只是前面多了个“！”	
 	一行表示: ![alt_text](url "可选的title")
     引用表示法: ![alt_text][id],预先定义 [id]:url "可选title"
     直接使用<img>标签，这样可以指定图片的大小尺寸
+
 ## 9.脚注（footnote）
 
 脚注[^1]和脚注[^2]
@@ -113,11 +115,13 @@ image:
 	iiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoD+
 	nzX1xoVQ8NAuH+s4UcSeQ==
 
+
 | *Year* | *Temperature (low)* | *Temperature (high)* |
 |------|-----|----|
 | 1900 | -10 | 25 |
 | 1910 | -15 | 30 |
 | 1920 | -10 | 32 |
+
 -----
 
 Example
