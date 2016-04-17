@@ -10,11 +10,10 @@ image:
   background: triangular.png
 ---
 
-我有一个小笨猪，可**笨** (`**笨**`)了, 不会自己*吃饭*，不会~~穿衣服~~。
-
+This is markdown rules, the name is **markdown**, this is the *rules*, ~~rules~~ 
 
 ```
-我有一个小笨猪，可**笨**了, 不会自己*吃饭*，不会~~穿衣服~~。
+This is markdown rules, the name is **markdown**, this is the *rules*, ~~rules~~ 
 ```
 看到了
 
