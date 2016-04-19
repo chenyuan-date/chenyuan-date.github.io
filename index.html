@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post-index
 title: "尘缘"
 description: "Dream for future"
