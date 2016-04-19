@@ -178,9 +178,11 @@ ___
 * 无序列表
 ___
 
-1. 有序列表
-3. 有序列表
-5. 有序列表
+1. Item one
+   1. sub item one
+   3. sub item two
+   9. sub item three
+3. Item two
 ___
 
 - 嵌套列表
@@ -281,34 +283,16 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 	iiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoD+
 	nzX1xoVQ8NAuH+s4UcSeQ==
 
+| *Tables*      | *Are*         | *Cool*|
+|:------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+|---
+| col 2 is      | centered      |   $12 |
+|===
+| col 1 is      | left-alighed  |    $5 |
 
-| *Year* | *Temperature (low)* | *Temperature (high)* |
-|:------|:-----:|----:|
-| 1900 | -10 | 25 |
-| 1910 | -15 | 30 |
-| 1920 | -10 | 32 |
-|-----
-| col1 | col2 | col3 |
-
-
-
-
-
----
-
-
-------
-
-	| Tables        | Are           | Cool  |
-	|:------------- |:-------------:| -----:|
-	| col 3 is      | right-aligned | $1600 |
-	| col 2 is      | centered      |   $12 |
-	| zebra stripes | are neat      |    $1 |
-----------------
-
-
-reference
-http://ibruce.info/2013/11/26/markdown/ 
+reference:
+<http://ibruce.info/2013/11/26/markdown/> 
 
 
 
