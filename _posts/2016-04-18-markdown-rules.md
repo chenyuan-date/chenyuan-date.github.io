@@ -21,8 +21,10 @@ image:
 ```
 一级标题
 =
+
 二级标题
 -
+
 # Header 1   
 ## Header 2   
 ### Header 3    
@@ -32,8 +34,10 @@ image:
 ```
 一级标题
 =
+
 二级标题
 -
+
 # Header 1   
 ## Header 2   
 ### Header 3    
@@ -128,7 +132,9 @@ __粗体
 ```
 
 >引用
+
  >>引用中的引用
+
  >>>第三层引用
 
 >     (>和文字之间超过5个空格之后，会有块出现)
@@ -224,7 +230,6 @@ ___
 [不如](http://bruce-sha.github.io "不如的博客")
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
-
 [1]: http://google.com/        "Google" 
 [2]: http://search.yahoo.com/  "Yahoo Search" 
 [3]: http://search.msn.com/    "MSN Search"
@@ -235,7 +240,6 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 [不如](http://bruce-sha.github.io "不如的博客")
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
-
 [1]: http://google.com/        "Google" 
 [2]: http://search.yahoo.com/  "Yahoo Search" 
 [3]: http://search.msn.com/    "MSN Search"
@@ -250,6 +254,13 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
     直接使用<img>标签，这样可以指定图片的大小尺寸
 
 ## 9.脚注（footnote）
+
+```
+脚注[^1]和脚注[^2]
+
+[^1]:脚注1
+[^2]:脚注2
+```
 
 脚注[^1]和脚注[^2]
 
@@ -272,10 +283,12 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
 
 | *Year* | *Temperature (low)* | *Temperature (high)* |
-|------|-----|----|
+|:------|:-----:|----:|
 | 1900 | -10 | 25 |
 | 1910 | -15 | 30 |
 | 1920 | -10 | 32 |
+|-----
+| col1 | col2 | col3 |
 
 
 
@@ -285,12 +298,14 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
 
 ------
+
 	| Tables        | Are           | Cool  |
-	| ------------- |:-------------:| -----:|
+	|:------------- |:-------------:| -----:|
 	| col 3 is      | right-aligned | $1600 |
 	| col 2 is      | centered      |   $12 |
 	| zebra stripes | are neat      |    $1 |
 ----------------
+
 
 reference
 http://ibruce.info/2013/11/26/markdown/ 
