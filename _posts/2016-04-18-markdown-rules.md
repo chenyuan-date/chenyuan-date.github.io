@@ -8,6 +8,7 @@ categories: [markdown]
 share: false
 image:
   background: triangular.png
+  feature: 1.jpg
 ---
 
 ## 1. 标题设置（让字体变大，和word的标题意思一样）
