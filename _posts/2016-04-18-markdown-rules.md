@@ -134,20 +134,20 @@ __粗体
 	当>和文字之间添加五个blank时，块注释的文字会有变化(被块包围)
 
 ```
->引用
- >>引用中的引用
- >>>第三层引用
+> 引用
+ >> 引用中的引用
+ >>> 第三层引用
 
->     (>和文字之间超过5个空格之后，会有块出现)
+>     (> 和文字之间超过5个空格之后，会有块出现)
 ```
 
->引用
+> 引用
 
- >>引用中的引用
+ >> 引用中的引用
 
- >>>第三层引用
+ >>> 第三层引用
 
->     (>和文字之间超过5个空格之后，会有块出现)
+>     (“>” 和文字之间超过5个空格之后，会有块出现)
 
 ## 5.列表
 
@@ -241,11 +241,9 @@ __粗体
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
  
-[1]: http://google.com/        "Google" 
-
-[2]: http://search.yahoo.com/  "Yahoo Search" 
-
-[3]: http://search.msn.com/    "MSN Search"
+[1]: http://google.com/        "Google"   
+[2]: http://search.yahoo.com/  "Yahoo Search"   
+[3]: http://search.msn.com/    "MSN Search"   
 
 <http://ibruce.info>
 ```
@@ -254,11 +252,9 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
  
-[1]: http://google.com/        "Google" 
-
-[2]: http://search.yahoo.com/  "Yahoo Search" 
-
-[3]: http://search.msn.com/    "MSN Search"
+[1]: http://google.com/        "Google"    
+[2]: http://search.yahoo.com/  "Yahoo Search"     
+[3]: http://search.msn.com/    "MSN Search"   
 
 <http://ibruce.info>
 
@@ -296,6 +292,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 	Ql/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNM
 	iiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoD+
 	nzX1xoVQ8NAuH+s4UcSeQ==
+
 
 | *Tables*      | *Are*         | *Cool*|
 |:------------- |:-------------:| -----:|
