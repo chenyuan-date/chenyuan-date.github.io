@@ -25,11 +25,16 @@ image:
 二级标题
 -
 
-# Header 1   
+# Header 1
+
 ## Header 2   
-### Header 3    
+
+### Header 3   
+ 
 #### Header 4   
-##### Header 5   
+
+##### Header 5  
+ 
 ###### Header 6 (末尾为了美观也可以加#，但是标题的大小只取决于行首#的数量） 
 ```
 一级标题
@@ -39,11 +44,16 @@ image:
 -
 
 # Header 1   
-## Header 2   
-### Header 3    
+
+## Header 2  
+ 
+### Header 3   
+ 
 #### Header 4   
-##### Header 5   
-###### Header 6
+
+##### Header 5  
+ 
+###### Header 6 (末尾为了美观也可以加#，但是标题的大小只取决于行首#的数量）
 
 ## 2.强调
 
@@ -158,12 +168,12 @@ __粗体
 - 无序列表
 + 无序列表
 * 无序列表
-___
 
-1. 有序列表
-3. 有序列表
-5. 有序列表
-___
+1. Item one
+   1. sub item one
+   3. sub item two
+   9. sub item three
+3. Item two
 
 - 嵌套列表
  + 嵌套列表
@@ -176,14 +186,12 @@ ___
 - 无序列表
 + 无序列表
 * 无序列表
-___
 
 1. Item one
    1. sub item one
    3. sub item two
    9. sub item three
 3. Item two
-___
 
 - 嵌套列表
  + 嵌套列表
@@ -231,9 +239,12 @@ ___
 ```
 [不如](http://bruce-sha.github.io "不如的博客")
 
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
+ 
 [1]: http://google.com/        "Google" 
+
 [2]: http://search.yahoo.com/  "Yahoo Search" 
+
 [3]: http://search.msn.com/    "MSN Search"
 
 <http://ibruce.info>
@@ -241,9 +252,12 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
 [不如](http://bruce-sha.github.io "不如的博客")
 
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
+ 
 [1]: http://google.com/        "Google" 
+
 [2]: http://search.yahoo.com/  "Yahoo Search" 
+
 [3]: http://search.msn.com/    "MSN Search"
 
 <http://ibruce.info>
@@ -290,6 +304,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 | col 2 is      | centered      |   $12 |
 |===
 | col 1 is      | left-alighed  |    $5 |
+{: rules="groups"}
 
 reference:
 <http://ibruce.info/2013/11/26/markdown/> 
