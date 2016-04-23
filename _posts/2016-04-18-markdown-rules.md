@@ -20,10 +20,10 @@ image:
 
 ```
 一级标题
-=
+==
 
 二级标题
--
+--
 
 # Header 1
 
@@ -295,7 +295,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 	nzX1xoVQ8NAuH+s4UcSeQ==
 
 ```
-| *Tables*      | *Are*         | *Cool*|
+| *Tables* | *Are* | *Cool* |
 |:------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 |---
@@ -305,8 +305,8 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 {: rules="groups"}
 ```
 
-| *Tables*      | *Are*         | *Cool*|
-|:------------- |:-------------:| -----:|
+| *Tables*      | *Are*         | *Cool* |
+|:------------- |:-------------:|-------:|
 | col 3 is      | right-aligned | $1600 |
 |---
 | col 2 is      | centered      |   $12 |
