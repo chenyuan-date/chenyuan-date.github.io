@@ -165,8 +165,8 @@ ___粗体斜体___
 ```
 
 > 引用
-	>> 引用中的引用
-		>>> 第三层引用
+ >> 引用中的引用
+  >>> 第三层引用
 
 > 数据结构
 >> 树
@@ -368,7 +368,7 @@ H<sub>2</sub>O
 
 reference:   
 <http://ibruce.info/2013/11/26/markdown/>     
-<https://github.com/guodongxiaren/README>      
+<https://github.com/guodongxiaren/README></br>
 <http://www.tuicool.com/articles/zIJrEjn>    
 
 
