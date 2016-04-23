@@ -168,12 +168,6 @@ ___粗体斜体___
  >> 引用中的引用
   >>> 第三层引用
 
-> 数据结构
->> 树
->>> 二叉树
->>>> 平衡二叉树
->>>>> 满二叉树
-
 >     (“>” 和文字之间超过5个空格之后，会有块出现)
 
 ## 5.列表
@@ -367,8 +361,8 @@ H<sub>2</sub>O
 
 
 reference:   
-<http://ibruce.info/2013/11/26/markdown/>        
-<https://github.com/guodongxiaren/README>                
+<http://ibruce.info/2013/11/26/markdown/>      
+<https://github.com/guodongxiaren/README>               
 <http://www.tuicool.com/articles/zIJrEjn>    
 
 
