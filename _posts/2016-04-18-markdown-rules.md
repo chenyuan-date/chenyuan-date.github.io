@@ -16,7 +16,7 @@ image:
 在Markdown当中设置标题，有两种方式：
 
 	第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。(任何数量的 = 和 - 都可以有效果)
-	第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。(一共只有1~6级标题，1级标题字体最大)
+	第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。(注意符号和文本之间的空格。一共只有1~6级标题，1级标题字体最大)
 
 ```
 一级标题
@@ -66,13 +66,22 @@ image:
 
 	将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来(符号可跨行，符号可加空格)
 
+粗体斜体
+
+	将需要设置为斜体的文字两端使用3个“*”或者“_”夹起来(符号可跨行，符号可加空格)
+
 删除线
 
 	将需要加删除线的文字两端使用2个“~~”夹起来
+	或者使用HTML中的 <del> 标签
 
 高亮
 	
-	将需要高亮的文字两端使用2个“==”夹起来
+	在HTML中使用 <mark> 将文本高亮
+
+下划线
+
+	在HTML中使用 <u> 给文本加下划线
 
 ```
 *斜体(Italics)*
@@ -95,8 +104,13 @@ __粗体(bold)__
 __粗体
 (bold)__
 
+___粗体斜体___
+
 ~~text~~
 
+<del>text<del/>
+
+<u>underline</u>
 ```
 
 *斜体(Italics)*
@@ -119,7 +133,15 @@ __粗体(bold)__
 __粗体
 (bold)__
 
+___粗体斜体___
+
 ~~text~~
+
+<del>text</del>
+
+<mark>highlight</mark>
+
+<u>underline</u>
 
 ## 3.分割线
 
@@ -135,18 +157,16 @@ __粗体
 	当>和文字之间添加五个blank时，块注释的文字会有变化(被块包围)
 
 ```
-> 引用
- >> 引用中的引用
- >>> 第三层引用
+>引用
+>>引用中的引用
+>>>第三层引用
 
 >     (> 和文字之间超过5个空格之后，会有块出现)
 ```
 
-> 引用
-
- >> 引用中的引用
-
- >>> 第三层引用
+>引用
+>>引用中的引用
+>>>第三层引用
 
 >     (“>” 和文字之间超过5个空格之后，会有块出现)
 
@@ -164,6 +184,7 @@ __粗体
 嵌套列表
 
 	“-”、“+”、“*”可循环使用，但符号之后的空格不能少，符号之前的空格也不能少
+	多级list，就在每一级list前多加一个tab
 
 ```
 - 无序列表
@@ -177,10 +198,10 @@ __粗体
 3. Item two
 
 - 嵌套列表
- + 嵌套列表
-     - 嵌套列表
- + 嵌套列表
-     * 嵌套列表
+	+ 嵌套列表
+    	* 嵌套列表
+    + 嵌套列表
+    	* 嵌套列表
 - 嵌套列表
 ```
 
@@ -195,10 +216,10 @@ __粗体
 3. Item two
 
 - 嵌套列表
- + 嵌套列表
-     - 嵌套列表
- + 嵌套列表
-     * 嵌套列表
+	+ 嵌套列表
+    	* 嵌套列表
+    + 嵌套列表
+    	* 嵌套列表
 - 嵌套列表
 
 ## 6.代码
@@ -238,7 +259,7 @@ __粗体
     简写url：用尖括号包裹url，这样生成的url锚文本就是url本身
 
 ```
-[不如](http://bruce-sha.github.io "不如的博客")
+[百度](https://www.baidu.com/ "百度网址")
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
  
@@ -249,7 +270,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 <http://ibruce.info>
 ```
 
-[不如](http://bruce-sha.github.io "不如的博客")
+[百度](https://www.baidu.com/ "百度网址")
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
  
@@ -257,7 +278,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 [2]: http://search.yahoo.com/  "Yahoo Search"     
 [3]: http://search.msn.com/    "MSN Search"   
 
-<http://ibruce.info>
+<https://www.baidu.com/>
 
 ## 8.images
 
@@ -265,15 +286,27 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 	一行表示: ![alt_text](url "可选的title")
     引用表示法: ![alt_text][id],预先定义 [id]:url "可选title"
     直接使用<img>标签，这样可以指定图片的大小尺寸
+	![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 
 ## 9.脚注（footnote）
 
 ```
+非链接脚注，分为上标和下标，可分别通过HTML的 <sup> 和 <sub> 实现
+
+2<sup>10</sup>
+
+H<sub>2</sub>O
+
 脚注[^1]和脚注[^2]
 
 [^1]:脚注1
 [^2]:脚注2
 ```
+2<sup>10</sup>
+
+H<sub>2</sub>O
 
 脚注[^1]和脚注[^2]
 
@@ -314,9 +347,23 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 | col 1 is      | left-alighed  |    $5 |
 {: rules="groups"}
 
+## others
+### 换行
+	
+	行尾多加两个空格或者用<br/>
 
-reference:
-<http://ibruce.info/2013/11/26/markdown/> 
+### notice
+
+	尽管 Markdown Render 会对各阶 Heading（H1-H6）有特殊的格式渲染来凸显层级，但还是建议在章节（Section/Chapter）末尾适时插入空行，以示行文分割且方便阅读。 
+	为了更优的 阅读感 和 兼容性，建议在分割线（Horizontal Rules）的上面留一空行，块引用（Blockquote）、预格式化（Preformatted Code Block）、列表（List）、表格（Table）等区块元素的上下各插入空行。
+
+
+
+reference:   
+<http://ibruce.info/2013/11/26/markdown/>     
+<https://github.com/guodongxiaren/README>   
+<http://www.tuicool.com/articles/zIJrEjn>    
+
 
 
 
