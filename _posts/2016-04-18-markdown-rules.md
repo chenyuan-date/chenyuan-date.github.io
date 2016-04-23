@@ -1,10 +1,10 @@
 ---
 layout: post
-title: markdown简明语法
+title: markdown rules
 author: CY
-description: "test"
+description: "Rules of markdown"
 tags: [markdown]
-categories: [markdown]
+categories: [web]
 share: false
 image:
   background: triangular.png
@@ -37,6 +37,7 @@ image:
  
 ###### Header 6 (末尾为了美观也可以加#，但是标题的大小只取决于行首#的数量） 
 ```
+
 一级标题
 =
 
@@ -303,6 +304,7 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 | col 1 is      | left-alighed  |    $5 |
 {: rules="groups"}
 ```
+
 | *Tables*      | *Are*         | *Cool*|
 |:------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
