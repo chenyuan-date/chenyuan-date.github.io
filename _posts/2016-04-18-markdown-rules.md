@@ -205,9 +205,9 @@ ___粗体斜体___
 
 - 嵌套列表
 	+ 嵌套列表
-    	* 嵌套列表
+		* 嵌套列表
 	+ 嵌套列表
-    	* 嵌套列表
+		* 嵌套列表
 - 嵌套列表
 ```
 
@@ -367,8 +367,8 @@ H<sub>2</sub>O
 
 
 reference:   
-<http://ibruce.info/2013/11/26/markdown/>     
-<https://github.com/guodongxiaren/README></br>
+<http://ibruce.info/2013/11/26/markdown/>        
+<https://github.com/guodongxiaren/README>                
 <http://www.tuicool.com/articles/zIJrEjn>    
 
 
