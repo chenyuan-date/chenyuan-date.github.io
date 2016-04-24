@@ -8,7 +8,7 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: .jpg
+  feature: 5.jpg
 ---
 
 reference：http://blog.sina.com.cn/s/blog_5ee56d450101dah2.html
@@ -25,7 +25,7 @@ pandoc被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/1
 如果markdown文件中不包含中文字符，那么直接使用下面的命令就可以将markdown文件无缝转换为Latex支持的pdf文件。
 pandoc infile.md -o outfile.pdf
 
-如果markdown文件中包含中文字字符，那么上段命令就无法直接转换，可能会报以下错误：
+如果markdown文件中包含中文字字符，那么上段命令就无法直接转换，可能会报以下错误：  
 ! Package inputenc Error: Unicode char \u8:鍒?not set up for use with LaTex. pandoc: Error producing PDF from Tex source. See the inputsnc package documentation for explanation. ...
 
 为了解决中文编译的问题，需要做以下的工作：
