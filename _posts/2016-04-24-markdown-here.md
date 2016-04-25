@@ -8,7 +8,6 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: cy2.png
 ---
 
 [Markdown here](http://markdown-here.com/) is an extension for Chrome, Firefox, and Thunderbird that allows you to write email in Markdown.
