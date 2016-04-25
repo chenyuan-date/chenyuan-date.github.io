@@ -8,7 +8,6 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: cy3.png
 ---
 
 ## 1.install pandoc
