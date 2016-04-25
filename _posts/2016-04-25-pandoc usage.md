@@ -21,9 +21,9 @@ linux 下的安装教程参考[阳志平的博文](http://www.yangzhiping.com/te
 ## 2. 安装 MiKTeX
 pandoc 被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/13/pandoc/)。执行程序文件只有 20 M 左右大小，但是能够在几十种文件格式之间自如的转换，那当然是得依赖各种格式文件所需要库。转换为 pdf 就要用到 MiKTeX，Windows 下推荐使用 CTeX 完整版，对<mark>中文</mark>的支持很好，可以从[CTeX官网](http://www.ctex.org/HomePage)下载完整套件。 
 其中：     
-- CTeX_2.9.*.exe (~200 M) 包含 Basic 版 MiKTeX，占用空间小，会根据需要的宏包自动升级。 
-- CTeX_2.9.*_Full.exe (~1.3 G) 包含完整版 MiKTeX。
-- CTeX_2.9.*_Update.exe (~20 M) 支持从之前版本升级。  
+- CTeX_2.9.\*.exe (~200 M) 包含 Basic 版 MiKTeX，占用空间小，会根据需要的宏包自动升级。 
+- CTeX_2.9.\*_Full.exe (~1.3 G) 包含完整版 MiKTeX。
+- CTeX_2.9.\*_Update.exe (~20 M) 支持从之前版本升级。  
 
 一般 CTeX 要装在 C 盘，CTEX 强制安装在 C 盘是为了避免出现 DLL 动态库调用等错误，增强稳定性。
 
