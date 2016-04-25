@@ -8,7 +8,7 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: 55.png
+  feature: cy3.png
 ---
 
 ## 1.install pandoc
@@ -29,7 +29,7 @@ pandoc 被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/
 首先win+R，打开运行工具；输入框输入`CMD`命令，之后单击“确定”进入提示符界面。
 
 
-![pandoc snapshot](pandoc.png)  
+![pandoc snapshot](/images/pandoc.png)  
 
 
 如果markdown文件中不包含中文字符，那么直接使用下面的命令就可以将markdown文件无缝转换为Latex支持的pdf文件。    
