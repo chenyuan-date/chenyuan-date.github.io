@@ -8,7 +8,7 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: 5.jpg
+  feature: cy5.jpg
 ---
 
 reference：http://blog.sina.com.cn/s/blog_5ee56d450101dah2.html
