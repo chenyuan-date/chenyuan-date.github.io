@@ -28,7 +28,7 @@ pandoc 被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/
 ## 3 将 markdown 文件转换为 pdf
 首先win+R，打开运行工具；输入框输入`CMD`命令，之后单击“确定”进入提示符界面。
 
-<div>
+<div align="center">
 ![](http://i.imgur.com/Avesprm.png)
  </div>
 
