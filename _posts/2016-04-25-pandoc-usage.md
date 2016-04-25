@@ -29,7 +29,7 @@ pandoc 被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/
 首先win+R，打开运行工具；输入框输入`CMD`命令，之后单击“确定”进入提示符界面。
 
 <div align="center">
-![](../images/pandoc.png)
+![pandoc snapshot](https://github.com/chenyuan-date/chenyuan-date.github.io/blob/master/images/pandoc.png)
  </div>
 
 如果markdown文件中不包含中文字符，那么直接使用下面的命令就可以将markdown文件无缝转换为Latex支持的pdf文件。    
