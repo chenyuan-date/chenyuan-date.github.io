@@ -8,11 +8,7 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-<<<<<<< HEAD
   feature: 55.jpg
-=======
-  feature: cy5.jpg
->>>>>>> origin/master
 ---
 
 ## 1.install pandoc
