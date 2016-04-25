@@ -28,14 +28,11 @@ pandoc 被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/
 ## 3 将 markdown 文件转换为 pdf
 首先win+R，打开运行工具；输入框输入`CMD`命令，之后单击“确定”进入提示符界面。
 
-{% highlight html %}
-<figure>
-	<img src="/images/pandoc.jpg" alt="">
-</figure>
-{% endhighlight %}
+<div>
+![](http://i.imgur.com/Avesprm.png)
+ </div>
 
-
-如果markdown文件中不包含中文字符，那么直接使用下面的命令就可以将markdown文件无缝转换为Latex支持的pdf文件。
+如果markdown文件中不包含中文字符，那么直接使用下面的命令就可以将markdown文件无缝转换为Latex支持的pdf文件。    
 `pandoc infile.md -o outfile.pdf`
 
 如果markdown文件中包含中文字字符，那么上段命令就无法直接转换，可能会报以下错误：  
@@ -43,7 +40,8 @@ pandoc 被称为[格式转换的瑞士军刀](http://yanping.me/cn/blog/2012/03/
 
 同时产生中间文件：*.tex
 
-为了解决中文编译的问题，需要做以下的工作：      
+为了解决中文编译的问题，需要做以下的工作：     
+  
 1. 将markdown文档的编码方式改为utf-8。比较简单的办法就是用记事本打开该文档，然后另存为时选择编码方式为utf-8。有可能当你改变编码方式后，文档中的中文全变成乱码了。为避免这种情况，可以在改变编码方式之前先复制文档的全部内容，然后在改变编码方式之后粘贴替换文档中的全部内容，这样就不会出现乱码了。    
 
 2. 编译pandoc默认的latex引擎是pdflatex，是不支持中文的，需要手动设置编译时所用的引擎为xelatex，编译命令改为：        
