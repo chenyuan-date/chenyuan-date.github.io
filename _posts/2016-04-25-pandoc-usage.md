@@ -8,7 +8,7 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: 55.jpg
+  feature: 55.png
 ---
 
 ## 1.install pandoc
