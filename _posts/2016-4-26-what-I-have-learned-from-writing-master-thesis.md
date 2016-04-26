@@ -14,6 +14,13 @@ In 2016, I write my master thesis in the third year of my master, I have learned
 
 Theis have several parts, I will write from the following aspects:
 - Writing skills in chinese
+
+```
+1. 形容词（代词）+的+名词
+   副词+地+动词
+   动词+得+副词
+```
+
 - Writing skills in english
 - Notices in generating figures
 - References
