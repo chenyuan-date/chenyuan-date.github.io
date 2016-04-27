@@ -10,23 +10,34 @@ image:
   background: triangular.png
 ---
 
-In 2016, I write my master thesis in the third year of my master, I have learned a lot in the process of writing my master thesis, I want to write down, I think it will be helpful for improving my writing skills.   
+It's said that "Good memory than rotten written". To have a good memory and to learn from the past, I would like to write down notices in the process of writing my master thesis in 2016.    
 
 Theis have several parts, I will write from the following aspects:       
-- Writing skills in chinese     
+# Writing skills in chinese     
 
 ```
 1. 形容词（代词）+的+名词
    副词+地+动词
    动词+得+副词
+2. there is a space between english and chinese words ("作者 JIM 和"，其中 JIM 前后各有一个空格)
 ```
 
-- Writing skills in english      
+# Writing skills in english      
 
 ```
-1. there is a space between number and unit
+1. there is a space between number and unit (10 M)
 2. 
 ```
 
-- Notices in generating figures     
-- References      
+# Notices in generating figures     
+
+```
+
+```
+
+# References
+
+```
+1. follow the citation format the thesis request.
+2. 
+```       

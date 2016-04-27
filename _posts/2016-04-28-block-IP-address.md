@@ -12,7 +12,7 @@ image:
 
 Sometimes, in order to avoid so many useless visit to your server, which may cause a waste of resource and slow response, it is necessary to limit IP address.
 
-Make a file named .htaccess in the web directory, then add the following contents according to your purpose.
+Create a file named .htaccess in the web directory, then add the following contents according to your purpose.
 
 # Block IP address  
 
@@ -98,5 +98,5 @@ allow from all
 
 This will block the visit from copy.com website, there is a dot before copy.com, this will block all its website (including second-level domain).
 
-Ref:       
-http://www.sjyhome.com/htaccess/limit-the-ip-address.html 
+Ref:        
+[http://www.sjyhome.com/htaccess/limit-the-ip-address.html](http://www.sjyhome.com/htaccess/limit-the-ip-address.html) 
