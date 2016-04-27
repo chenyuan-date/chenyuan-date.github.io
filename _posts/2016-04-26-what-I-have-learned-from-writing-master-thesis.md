@@ -12,7 +12,8 @@ image:
 
 It's said that "Good memory than rotten written". To have a good memory and to learn from the past, I would like to write down notices in the process of writing my master thesis in 2016.    
 
-Theis have several parts, I will write from the following aspects:       
+Theis have several parts, I will write from the following aspects:  
+     
 # Writing skills in chinese     
 
 ```
