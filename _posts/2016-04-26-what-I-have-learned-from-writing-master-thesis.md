@@ -33,7 +33,9 @@ Theis have several parts, I will write from the following aspects:
 # Notices in generating figures     
 
 ```
-
+1. if the legend is not clear, just regenerate them via AI
+2. word font and size of the figures should be the same through the whole thesis
+3. figure and legend should be in the same page
 ```
 
 # References
