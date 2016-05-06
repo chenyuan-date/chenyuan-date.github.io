@@ -21,9 +21,7 @@ Today I learned a new skill -- send instant messages to all/specific users via l
 1、write + shh登陆用户名+ttyname(例如pts/1)
 2、ENTER
 3、输入信息（所要发送的消息，中文可能会乱码）。
-4、EOF
-5、ctrl+d
-6、结束
+4、结束信息ctrl+d
 ```
 
 example:
