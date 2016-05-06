@@ -26,8 +26,9 @@ Theis have several parts, I will write from the following aspects:
 # Writing skills in english      
 
 ```
-1. there is a space between number and unit (10 M)
-2. 
+1. 数字和单位之间有空格。如：10 M
+2. 文章摘要要注意时态：
+   
 ```
 
 # Notices in generating figures     
