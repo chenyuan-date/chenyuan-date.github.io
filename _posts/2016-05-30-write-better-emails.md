@@ -88,7 +88,7 @@ One good use of Bcc is when sending an e-mail to hundreds of people. You don't w
 | :------------------- | :----------|
 |   熟悉的朋友、同事     |     Cheers  |
 |    请对方帮忙或协助    | Many thanks |
-|     呼应信件的内容    |Have a nice day</br>Enjoy the holiday</br>To your success</br>Keep up the good work|
+|     呼应信件的内容    |Have a nice day   Enjoy the holiday    To your success   Keep up the good work|
 |充满开心与祝福的感性结尾|Best wishes</br>All the best</br>Good luck</br>Take care & See you soon</br>|
 
 Best regards意思是“致上我最高的问候”，比较正式的说法。
@@ -111,8 +111,8 @@ John Smith
 **A-Team Vigilante Services**      
 **Tel:** 111-222-3333     
 **Address:** Suite 334, BA Studios, California, 90210        
-**Web:** <www.theateam.ba>       
-*E-mail checked Mon-Thurs at 10am, 1pm and 3pm*         
+**Web:** www.theateam.ba          
+*E-mail checked Mon-Thurs at 10am, 1pm and 3pm*              
 <mark>News:</mark> Please note, I'll be moving office on 17th August. New details to follow.
 
 ## 附件 (attachments) 表达
