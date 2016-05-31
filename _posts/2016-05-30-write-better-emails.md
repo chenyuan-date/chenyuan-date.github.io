@@ -11,11 +11,9 @@ image:
 ---
 ## 邮件标题（subject）
 The Subject Line is one of the most important parts of an e-mail. The subject line has three main purposes:
-
-
-    Summarises the content of the e-mail
-    Allows the receiver to determine how important and urgent the message is
-    Allows the user to find the e-mail later on, without having to open it
+* Summarises the content of the e-mail
+* Allows the receiver to determine how important and urgent the message is
+* Allows the user to find the e-mail later on, without having to open it
 
 
 ## 称呼
