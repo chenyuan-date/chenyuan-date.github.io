@@ -10,14 +10,16 @@ image:
   background: triangular.png 
 ---
 ## 邮件标题（subject）
-The Subject Line is one of the most important parts of an e-mail. The subject line has three main purposes:    
+The Subject Line is one of the most important parts of an e-mail. The subject line has three main purposes:  
+  
 * <mark>Summarises the content of the e-mail</mark>    
 * <mark>Allows the receiver to determine how important and urgent the message is</mark>    
 * <mark>Allows the user to find the e-mail later on, without having to open it</mark>          
 
 If you can, try and fit in all the critical details of your message into the subject line. If you are arranging a meeting, put the date and time. If you have made a decision, put it in the subject line.
 
-Examples of Good Subject Lines       
+Examples of Good Subject Lines  
+     
 + Subject: Weekly Meeting moved to 2pm this Friday          
 + Subject: Purchase of new printer now approved          
 + Subject: 5 Ideas for Joanna's birthday present        
@@ -30,9 +32,9 @@ Dear Dr Zhang, (Doctor后有个空格)
 ## 知道To, Cc and Bcc的使用情景   
 You should always make sure you e-mail the right people, in the right way. The To, Cc and Bcc fields allow you to indicate how your message should be read by the people that receive it.
 
-- <mark>To 	People required to take action</mark>     
-- <mark>Cc 	Kept informed of the content, but no actions required from them</mark>        
-- <mark>Bcc 	Receive the message without any of the other recipients knowing. Also used for larger mailings (over 50)</mark>    
+- <mark>To</mark>	People required to take action     
+- <mark>Cc</mark>	Kept informed of the content, but no actions required from them        
+- <mark>Bcc</mark>	Receive the message without any of the other recipients knowing. Also used for larger mailings (over 50)    
 
 ### ***To***
 The To field is for people that the message directly affects, and that you require action from. If you expecting someone to do something, they should be in the To field.        
@@ -47,6 +49,7 @@ The To field can be used for as many addresses as you like - some people mistake
 The Cc (or carbon copy) field is for people you want to know about the message, but are not directly involved. It's mainly for people that do not need to act or reply to the message, but to keep them informed.  
 
 The CC field can be used for a number of reasons:    
+
 - It keeps other people "in the loop" on certain issues (often used to keep managers up to date on issues).     
 - It lets people know if they are expected to take action, or if they are just being informed.      
 - It allows you to make the receiver aware that other people know what is going on (in case you want them to take the content more seriously, or treat it as more important or urgent).    
@@ -59,7 +62,7 @@ When people get an e-mail, they'll also see all the people in the To and Cc line
 One good use of Bcc is when sending an e-mail to hundreds of people. You don't want them all to see each other's e-mail addresses so you use this field, rather than the To or Cc lines.
 
 ## 邮件开头 
-- 在邮件开头表示感谢：         
+- 在邮件开头表示感谢：     
   + Thank you for contacting us. 如果有人写信来询问公司的服务，就可以使用这句句子开头，向他们对公司的兴趣表示感谢。              
   + Thank you for your prompt reply. 当—个客户或是同事很快就回复了你的邮件，一定记得要感谢他们。如果回复并不及时，只要将“prompt”除去即可，你还可以说，“Thank you for getting back to me.”           
   + Thank you for providing the requested information. 如果你询问某人一些信息，他们花了点时间才发送给你，那就用这句句子表示你仍然对他们的付出表示盛激。         
@@ -71,7 +74,8 @@ One good use of Bcc is when sending an e-mail to hundreds of people. You don't w
   + How is the project going? 项目进行顺利吗？   
 
 ## 邮件结尾
-在邮件开头表示感谢—般是表示对对方过去付出的感谢，而在邮件结尾处表示感谢是对将来的帮助表示感谢。事先表示感谢，能让对方在行动时更主动更乐意。   
+在邮件开头表示感谢—般是表示对对方过去付出的感谢，而在邮件结尾处表示感谢是对将来的帮助表示感谢。事先表示感谢，能让对方在行动时更主动更乐意。
+   
 - Thank you for your kind cooperation. 如果你需要读者帮助你做某事，那就先得表示感谢。     
 - Thank you for your attention to this matter. 与以上的类似，本句包含了你对对方将来可能的帮助表示感谢。  
 - Thank you for your understanding. 如果你写到任何会对读者产生负面影响的内容那就使用这句句子吧。   
@@ -91,6 +95,7 @@ Best regards意思是“致上我最高的问候”，比较正式的说法。
 
 ## 邮件签名 （signature）
 Your signature should contain:
+
 - Your name
 - Your position
 - Your company/organisation
@@ -100,14 +105,14 @@ Your signature should contain:
 
 A template like this： 
 
-Best wishes,
-John Smith
+Best wishes,   
+John Smith   
 
-**A-Team Vigilante Services**    
-**Tel:** 111-222-3333  
-**Address:** Suite 334, BA Studios, California, 90210    
-**Web:** <www.theateam.ba>    
-*E-mail checked Mon-Thurs at 10am, 1pm and 3pm*     
+**A-Team Vigilante Services**      
+**Tel:** 111-222-3333     
+**Address:** Suite 334, BA Studios, California, 90210        
+**Web:** <www.theateam.ba>       
+*E-mail checked Mon-Thurs at 10am, 1pm and 3pm*         
 <mark>News:</mark> Please note, I'll be moving office on 17th August. New details to follow.
 
 ## 附件 (attachments) 表达
@@ -173,4 +178,5 @@ John Smith
 - I sincerely apologize for this misunderstanding!        
 - I apologize for the late asking but we want to make sure the correctness of our implementation ASAP.        
 
-Ref [wirte better emails](http://writebetteremails.com/)
+Ref    
+[wirte better emails](http://writebetteremails.com/)
