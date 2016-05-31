@@ -32,9 +32,9 @@ Dear Dr Zhang, (Doctor后有个空格)
 ## 知道To, Cc and Bcc的使用情景   
 You should always make sure you e-mail the right people, in the right way. The To, Cc and Bcc fields allow you to indicate how your message should be read by the people that receive it.
 
-- <mark>To</mark>	People required to take action     
-- <mark>Cc</mark>	Kept informed of the content, but no actions required from them        
-- <mark>Bcc</mark>	Receive the message without any of the other recipients knowing. Also used for larger mailings (over 50)    
+- <mark>To</mark>   	People required to take action     
+- <mark>Cc</mark>   	Kept informed of the content, but no actions required from them        
+- <mark>Bcc</mark>   	Receive the message without any of the other recipients knowing. Also used for larger mailings (over 50)    
 
 ### ***To***
 The To field is for people that the message directly affects, and that you require action from. If you expecting someone to do something, they should be in the To field.        
@@ -88,8 +88,8 @@ One good use of Bcc is when sending an e-mail to hundreds of people. You don't w
 | :------------------- | :----------|
 |   熟悉的朋友、同事     |     Cheers  |
 |    请对方帮忙或协助    | Many thanks |
-|     呼应信件的内容    |Have a nice day   Enjoy the holiday    To your success   Keep up the good work|
-|充满开心与祝福的感性结尾|Best wishes  </br>All the best  </br>Good luck  </br>Take care & See you soon|
+|     呼应信件的内容    |Have a nice day</br>Enjoy the holiday</br>To your success</br>Keep up the good work|
+|充满开心与祝福的感性结尾|Best wishes</br>All the best</br>Good luck</br>Take care & See you soon|
 
 Best regards意思是“致上我最高的问候”，比较正式的说法。
 
