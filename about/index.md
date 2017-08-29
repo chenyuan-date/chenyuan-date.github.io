@@ -4,15 +4,15 @@ title: About
 share: false
 ---
 
-# Who we are
+# Who am I
 
-Rabbit, pig and monkey combination shorted as RPM.
+A PhD student
 
-# What we are doing
+# What I am doing
 
-Learn, Summary, Recrod, Share, Enjoy
+Learn, Summary, Record, Share, Enjoy
 
-# Why we do
+# Why I do
 
 For the dream
 

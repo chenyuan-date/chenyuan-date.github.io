@@ -1,28 +1,36 @@
-R introduction
-================
-Bao-Wen
-2 Juni 2017
+layout: post  
+title: R introduction   
+author: CY  
+description: "An introduction for R and Rstudio"  
+tags: [R plots]  
+categories: [R plots]  
+share: false  
+image:  
+  background: triangular.png           
 
 Rstudio
 -------
 
-<https://www.rstudio.com/> RStudio is a free and open-source integrated development environment (IDE) for R, a programming language for statistical computing and graphics. RStudio was founded by JJ Allaire,\[5\] creator of the programming language ColdFusion. Hadley Wickham is the Chief Scientist at RStudio.
+[RStudio](https://www.rstudio.com/) is a free and open-source integrated development environment (IDE) for R, a programming language for statistical computing and graphics.    
+RStudio was founded by `JJ Allaire`, creator of the programming language ColdFusion. Hadley Wickham is the Chief Scientist at RStudio.
 
 ggplot2
 -------
-
-ggplot2 is a data visualization package for the statistical programming language R. Created by Hadley Wickham in 2005. It's a function to build plots piece by piece. The concept behind ggplot2 divides plot into three different fundamental parts: Plot = data + Aesthetics + Geometry.
+ggplot2 is a data visualization package for the statistical programming language R. Created by Hadley Wickham in 2005. It's a function to build plots piece by piece.   
+The concept behind ggplot2 divides plot into three different fundamental parts:       Plot = data + Aesthetics + Geometry.  
 
 The principal components of every plot can be defined as follow:
-
-    - data is a data frame                          
-    - Aesthetics is used to indicate x and y variables. It can also be used to control the color, the size or the shape of points, the height of bars, etc.
-    - Geometry defines the type of graphics (histogram, box plot, line plot, density plot, dot plot, ..)
+```
+data is a data frame                             
+Aesthetics is used to indicate x and y variables. It can also be used to control the color, the size or the shape of points, the height of bars, etc.  
+Geometry defines the type of graphics (histogram, box plot, line plot, density plot, dot plot, ..)
+```
 
 There are two major functions in ggplot2 package:
-
-    - qplot() stands for quick plot, which can be used to produce easily simple plots.
-    - ggplot() function is more flexible and robust than qplot for building a plot piece by piece.
+```
+qplot() stands for quick plot, which can be used to produce easily simple plots.
+ggplot() function is more flexible and robust than qplot for building a plot piece by piece.
+```
 
 Install and load ggplot2 package:
 
@@ -64,23 +72,25 @@ plot type selection
 ### Two variables: Continuous function
 
 ### Two variables: Discrete X, Continuous Y
-
-    geom_boxplot(): Box and whiskers plot
+```
+- geom_boxplot(): Box and whiskers plot
     geom_violin(): Violin plot
     geom_dotplot(): Dot plot
     geom_jitter(): Strip charts
     geom_line(): Line plot
     geom_bar(): Bar plot
+```
 
 ### Two variables: Discrete X, Discrete Y
 
 ### Two variables: Visualizing error
-
-    geom_crossbar(): Hollow bar with middle indicated by horizontal line
-    geom_errorbar(): Error bars
-    geom_errorbarh(): Horizontal error bars
-    geom_linerange() and geom_pointrange(): An interval represented by a vertical line
-    Combine geom_dotplot and error bars
+```
+- geom_crossbar(): Hollow bar with middle indicated by horizontal line
+- geom_errorbar(): Error bars
+- geom_errorbarh(): Horizontal error bars
+- geom_linerange() and geom_pointrange(): An interval represented by a vertical line
+- Combine geom_dotplot and error bars
+```
 
 ### Two variables: Maps
 
@@ -144,10 +154,16 @@ p <- p+xlab("")+ylab("")
 print(p)
 ```
 
-![](images/introduction-unnamed-chunk-5-1.png) So, R is quite interesting and attracting, why not learn it. Let's go~
+![](images/introduction-unnamed-chunk-5-1.png) 
+
+So, R is quite interesting and attracting, why not learn it. Let's go~
 
 References
 ----------
-
-[Be Awesome in ggplot2](http://www.sthda.com/english/wiki/be-awesome-in-ggplot2-a-practical-guide-to-be-highly-effective-r-software-and-data-visualization#one-variable-discrete) [R STHDA](http://www.sthda.com/english/wiki/r-software) [Interesting R](https://www.plob.org/article/1221.html)
-[Cookbook for R](http://www.cookbook-r.com/) [ggplot2 for bignners](https://www.plob.org/article/10475.html) [ggplot2 - Essentials](http://www.sthda.com/english/wiki/ggplot2-essentials) [Guide to Create Beautiful Graphics in R (Book)](http://www.sthda.com/english/download/3-ebooks/5-guide-to-create-beautiful-graphics-in-r-book)
+[Be Awesome in ggplot2](http://www.sthda.com/english/wiki/be-awesome-in-ggplot2-a-practical-guide-to-be-highly-effective-r-software-and-data-visualization#one-variable-discrete)   
+[R STHDA](http://www.sthda.com/english/wiki/r-software)  
+[Interesting R](https://www.plob.org/article/1221.html)  
+[Cookbook for R](http://www.cookbook-r.com/)  
+[ggplot2 for bignners](https://www.plob.org/article/10475.html)  
+[ggplot2 - Essentials](http://www.sthda.com/english/wiki/ggplot2-essentials)   
+[Guide to Create Beautiful Graphics in R (Book)](http://www.sthda.com/english/download/3-ebooks/5-guide-to-create-beautiful-graphics-in-r-book)
