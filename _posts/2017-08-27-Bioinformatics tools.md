@@ -1,12 +1,14 @@
-layout: post  
-title: Tools for Bioinformatics analysis   
-author: CY  
-description: "A comprehensive summary of tools for bioinformatics analysis"  
-tags: [Bioinformatics]  
-categories: [Bioinformatics]  
-share: false  
-image:  
-  background: triangular.png       
+layout: post
+title: Tools for Bioinformatics analysis
+author: CY
+description: "A comprehensive summary of tools for bioinformatics analysis"
+tags: [Bioinformatics]
+categories: [Bioinformatics]
+share: false
+image:
+  background: triangular.png 
+
+
 
 # fastq格式相关
 

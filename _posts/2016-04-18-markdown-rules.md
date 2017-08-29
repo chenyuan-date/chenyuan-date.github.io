@@ -8,7 +8,6 @@ categories: [web]
 share: false
 image:
   background: triangular.png
-  feature: 1.jpg
 ---
 
 ## 1. 标题设置（让字体变大，和word的标题意思一样）
@@ -47,19 +46,19 @@ image:
 # Header 1   
 
 ## Header 2  
- 
+
 ### Header 3   
- 
+
 #### Header 4   
 
 ##### Header 5  
- 
+
 ###### Header 6 (末尾为了美观也可以加#，但是标题的大小只取决于行首#的数量）
 
 ## 2.强调
 
 斜体             
-  
+
     将需要设置为斜体的文字两端使用1个“*”或者“_”夹起来(符号可跨行，符号可加空格)
 
 粗体
@@ -76,7 +75,7 @@ image:
 	或者使用HTML中的 <del> 标签
 
 高亮
-	
+​	
 	在HTML中使用 <mark> 将文本高亮
 
 下划线
@@ -165,8 +164,8 @@ ___粗体斜体___
 ```
 
 > 引用
- >> 引用中的引用
-  >>> 第三层引用
+> > 引用中的引用
+> > > 第三层引用
 
 >     (“>” 和文字之间超过5个空格之后，会有块出现)
 
@@ -211,15 +210,15 @@ ___粗体斜体___
 
 1. Item one
    1. sub item one
-   3. sub item two
-   9. sub item three
-3. Item two
+   2. sub item two
+   3. sub item three
+2. Item two
 
 - 嵌套列表
-	+ 嵌套列表
-		* 嵌套列表
-	+ 嵌套列表
-		* 嵌套列表
+  + 嵌套列表
+    * 嵌套列表
+  + 嵌套列表
+    * 嵌套列表
 - 嵌套列表
 
 ## 6.代码
@@ -246,17 +245,17 @@ ___粗体斜体___
 
 <!--lang:python-->
     import numpy as np
-	import theano.tensor as T
-	from theano import function
-	rng = np.random
+    import theano.tensor as T
+    from theano import function
+    rng = np.random
 
 ## 7.链接（Links）
 
 	使用 [描述](链接地址) 为文字增加外链接	
 	直接写 [描述](url "可选的title")
-    引用方式：
+	引用方式：
 		先定义 [ref_name]:url，然后在需要写入url的地方，这样使用[锚文本][ref_name]，通常的ref_name一般用数字表示，这样显得专业
-    简写url：用尖括号包裹url，这样生成的url锚文本就是url本身
+	简写url：用尖括号包裹url，这样生成的url锚文本就是url本身
 
 ```
 [百度](https://www.baidu.com/ "百度网址")
@@ -273,10 +272,10 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 [百度](https://www.baidu.com/ "百度网址")
 
 I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]. 
- 
-[1]: http://google.com/        "Google"    
-[2]: http://search.yahoo.com/  "Yahoo Search"     
-[3]: http://search.msn.com/    "MSN Search"   
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
 
 <https://www.baidu.com/>
 
@@ -284,8 +283,8 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
 
 	其实和链接一样，只是前面多了个“！”	
 	一行表示: ![alt_text](url "可选的title")
-    引用表示法: ![alt_text][id],预先定义 [id]:url "可选title"
-    直接使用<img>标签，这样可以指定图片的大小尺寸
+	引用表示法: ![alt_text][id],预先定义 [id]:url "可选title"
+	直接使用<img>标签，这样可以指定图片的大小尺寸
 	![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
 
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
@@ -310,9 +309,9 @@ H<sub>2</sub>O
 
 脚注[^1]和脚注[^2]
 
-[^1]:脚注1
-[^2]:脚注2
-	
+[^1]: 脚注1
+[^2]: 脚注2
+
 ## 10.表格
 
 	这个必须使用增强版的功能。tools->markdown-->processor(extra)
@@ -338,9 +337,9 @@ H<sub>2</sub>O
 {: rules="groups"}
 ```
 
-| *Tables*      | *Are*         | *Cool* |
-|:------------- |:-------------:|-------:|
-| col 3 is      | right-aligned | $1600 |
+| *Tables* |     *Are*     | *Cool* |
+| :------- | :-----------: | -----: |
+| col 3 is | right-aligned |  $1600 |
 |---
 | col 2 is      | centered      |   $12 |
 |===
@@ -350,7 +349,7 @@ H<sub>2</sub>O
 ## others
 
 ### 换行
-	
+
 	行尾多加两个空格或者用<br/>
 
 ### notice
@@ -371,4 +370,4 @@ reference:
 
 
 
-	
+​	
