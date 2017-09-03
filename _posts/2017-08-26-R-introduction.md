@@ -1,12 +1,15 @@
-layout: post
+---
+
 title: R introduction
+
 author: CY
-description: "An introduction for R and Rstudio"
+
+layout: post
+
 tags: [R plots]
 categories: [R plots]
-share: false
-image:
-  background: triangular.png     
+
+---
 
 Rstudio
 -------
