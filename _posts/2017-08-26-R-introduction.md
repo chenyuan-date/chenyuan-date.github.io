@@ -1,11 +1,7 @@
 ---
-
 title: R introduction
-
 author: CY
-
 layout: post
-
 tags: [R plots]
 categories: [R plots]
 
