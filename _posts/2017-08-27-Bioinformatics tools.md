@@ -1,3 +1,4 @@
+---
 layout: post
 title: Tools for Bioinformatics analysis
 author: CY
@@ -7,6 +8,7 @@ categories: [Bioinformatics]
 share: false
 image:
   background: triangular.png 
+---
 
 
 
