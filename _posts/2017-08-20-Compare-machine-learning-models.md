@@ -1,9 +1,9 @@
 ---
 layout: post
-title: tidyr
+title: Compare and select machine learning models
 author: CY
 tags: [ML]
-categories: [ML]
+categories: [Statistics]
 share: false
 image:
   background: triangular.png 
