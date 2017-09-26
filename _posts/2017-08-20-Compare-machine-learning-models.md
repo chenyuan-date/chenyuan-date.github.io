@@ -1,4 +1,4 @@
-```
+---
 layout: post
 title: tidyr
 author: CY
@@ -7,7 +7,10 @@ categories: [ML]
 share: false
 image:
   background: triangular.png 
-```
+---
+
+
+
 
 When you have a new dataset it is a good idea to visualize the data using a number of different graphing techniques in order to look at the data from different perspectives.
 
