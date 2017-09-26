@@ -121,7 +121,7 @@ scales <- list(x=list(relation="free"), y=list(relation="free"))
 bwplot(results, scales=scales)
 ```
 
-![](/images/Compare-ML-model-unnamed-chunk-5-1.png)<!-- -->
+![](/images/Compare-ML-model-unnamed-chunk-5-1.png)
 
 ## Density Plots
 A useful way to evaluate the overlap in the estimated behavior of algorithms.  
@@ -132,7 +132,7 @@ scales <- list(x=list(relation="free"), y=list(relation="free"))
 densityplot(results, scales=scales, pch = "|")
 ```
 
-![](/images/Compare-ML-model-unnamed-chunk-6-1.png)<!-- -->
+![](/images/Compare-ML-model-unnamed-chunk-6-1.png)
 
 ## Dot Plots
 
@@ -142,7 +142,7 @@ scales <- list(x=list(relation="free"), y=list(relation="free"))
 dotplot(results, scales=scales)
 ```
 
-![](/images/Compare-ML-model-unnamed-chunk-7-1.png)<!-- -->
+![](/images/Compare-ML-model-unnamed-chunk-7-1.png)
 
 ## Parallel Plots
 It shows how each trial of each cross validation fold behaved for each of the algorithms tested. It can help you see how those hold-out subsets that were difficult for one algorithms faired for other algorithms.   
@@ -152,7 +152,7 @@ It shows how each trial of each cross validation fold behaved for each of the al
 parallelplot(results)
 ```
 
-![](/images/Compare-ML-model-unnamed-chunk-8-1.png)<!-- -->
+![](/images/Compare-ML-model-unnamed-chunk-8-1.png)
 
 ## Scatterplot Matrix
 This is invaluable when considering whether the predictions from two different algorithms are correlated. If weakly correlated, they are good candidates for being combined in an ensemble prediction.   
@@ -162,7 +162,7 @@ This is invaluable when considering whether the predictions from two different a
 splom(results)
 ```
 
-![](/images/Compare-ML-model-unnamed-chunk-9-1.png)<!-- -->
+![](/images/Compare-ML-model-unnamed-chunk-9-1.png)
 
 ## Pairwise xyPlots
 One can zoom in on one pair-wise comparison of the accuracy of trial-folds for two machine learning algorithms with an xyplot.    
@@ -172,7 +172,7 @@ One can zoom in on one pair-wise comparison of the accuracy of trial-folds for t
 xyplot(results, models=c("LDA", "SVM"))
 ```
 
-![](/images/Compare-ML-model-unnamed-chunk-10-1.png)<!-- -->
+![](/images/Compare-ML-model-unnamed-chunk-10-1.png)
 
 ## Statistical Significance Tests
 You can calculate the significance of the differences between the metric distributions of different machine learning algorithms. We can summarize the results directly by calling the summary() function.            
