@@ -3,7 +3,7 @@ layout: post
 title: Awesome websites
 author: CY
 tags: [R]
-categories: [R]
+categories: [Websites]
 share: false
 image:
   background: triangular.png 
