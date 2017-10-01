@@ -4,8 +4,8 @@ title: Awesome websites
 author: CY
 tags: [Survival analysis]
 categories: 
-	- [Plots]
-	- [Statistics]
+	- Plots
+	- Statistics
 share: false
 image:
   background: triangular.png 
