@@ -5,6 +5,7 @@ author: CY
 tags: [Survival_analysis]
 categories: 
     - Statistics
+    - Plots
 share: false
 image:
   background: triangular.png 
