@@ -305,169 +305,11 @@ corrplot(corr,
 <p><code>chart.Correlation()</code> in package <em>PerformanceAnalytics</em> can be used to display a chart of a correlation matrix.</p>
 <pre class="r"><code>#install.packages(&quot;PerformanceAnalytics&quot;)
 library(&quot;PerformanceAnalytics&quot;)</code></pre>
-<pre><code>## Loading required package: xts</code></pre>
-<pre><code>## Loading required package: zoo</code></pre>
-<pre><code>## 
-## Attaching package: 'zoo'</code></pre>
-<pre><code>## The following objects are masked from 'package:base':
-## 
-##     as.Date, as.Date.numeric</code></pre>
-<pre><code>## 
-## Attaching package: 'PerformanceAnalytics'</code></pre>
-<pre><code>## The following object is masked from 'package:graphics':
-## 
-##     legend</code></pre>
+
 <pre class="r"><code>my_data &lt;- mtcars[, c(1,3,4,5,6,7)]
 chart.Correlation(my_data, histogram=TRUE, pch=19)</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数
 
-## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数
 
-## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in axis(side = side, at = at, labels = labels, ...): &quot;method&quot;不是图
-## 形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy.coords(x, y), type = type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.window(...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in plot.xy(xy, type, ...): &quot;method&quot;不是图形参数</code></pre>
-<pre><code>## Warning in title(...): &quot;method&quot;不是图形参数</code></pre>
 <p><img src="data:image/png;base64,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" /><!-- --></p>
 <pre class="r"><code>#The distribution of each variable is shown on the diagonal.
 #left bottom of the diagonal: the bivariate scatter plots with a fitted line are displayed
@@ -530,36 +372,25 @@ ggcorrplot(partial.corr$estimate,
 </div>
 <div id="references" class="section level1">
 <h1>References</h1>
-<p><a href="http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r">Correlation Test Between Two Variables in R</a> <a href="http://www.sthda.com/english/wiki/correlation-formula">correlation formula</a> <a href="http://www.sthda.com/english/wiki/correlation-coefficient">Correlation coefficient</a> <a href="http://www.sthda.com/english/wiki/correlation-coefficient-calculator">Correlation coefficient calculator</a> <a href="http://www.sthda.com/english/rsthda/correlation-matrix.php">Correlation matrix online software: Analysis and visualization</a> <a href="http://www.sthda.com/english/wiki/elegant-correlation-table-using-xtable-r-package">Elegant correlation table using xtable R package</a> <a href="http://www.sthda.com/english/wiki/correlation-matrix-an-r-function-to-do-all-you-need">Correlation matrix : An R function to do all you need</a> <a href="http://www.sthda.com/english/wiki/correlation-matrix-a-quick-start-guide-to-analyze-format-and-visualize-a-correlation-matrix-using-r-software">Correlation matrix: analyze, format and visualize</a> <a href="http://www.sthda.com/english/wiki/ggplot2-quick-correlation-matrix-heatmap-r-software-and-data-visualization">ggplot2: Quick correlation matrix heatmap</a> <a href="http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram">corrplot: Visualize correlation matrix</a> <a href="http://www.sthda.com/english/wiki/ggcorrplot-visualization-of-a-correlation-matrix-using-ggplot2">ggcorrplot: Visualization of a correlation matrix using ggplot2</a> <a href="https://cran.r-project.org/web/packages/ppcor/ppcor.pdf">ppcor</a></p>
+<p><a href="http://www.sthda.com/english/wiki/correlation-test-between-two-variables-in-r"> 
+
+Correlation Test Between Two Variables in R</a> <br/> 
+
+<a href="http://www.sthda.com/english/wiki/correlation-formula">correlation formula</a> <br/>
+
+ <a href="http://www.sthda.com/english/wiki/correlation-coefficient">Correlation coefficient</a> <br/>
+
+<a href="http://www.sthda.com/english/wiki/correlation-coefficient-calculator">Correlation coefficient calculator</a> <br/> 
+
+<a href="http://www.sthda.com/english/rsthda/correlation-matrix.php">Correlation matrix online software: Analysis and visualization</a> <br/> <a href="http://www.sthda.com/english/wiki/elegant-correlation-table-using-xtable-r-package">Elegant correlation table using xtable R package</a> <br/> 
+
+<a href="http://www.sthda.com/english/wiki/correlation-matrix-an-r-function-to-do-all-you-need">Correlation matrix : An R function to do all you need</a> <br/> 
+
+<a href="http://www.sthda.com/english/wiki/correlation-matrix-a-quick-start-guide-to-analyze-format-and-visualize-a-correlation-matrix-using-r-software">Correlation matrix: analyze, format and visualize</a> <br/>
+
+<a href="http://www.sthda.com/english/wiki/ggplot2-quick-correlation-matrix-heatmap-r-software-and-data-visualization">ggplot2: Quick correlation matrix heatmap</a> <br/> 
+
+<a href="http://www.sthda.com/english/wiki/visualize-correlation-matrix-using-correlogram">corrplot: Visualize correlation matrix</a> <a href="http://www.sthda.com/english/wiki/ggcorrplot-visualization-of-a-correlation-matrix-using-ggplot2">ggcorrplot: Visualization of a correlation matrix using ggplot2</a> <a href="https://cran.r-project.org/web/packages/ppcor/ppcor.pdf">ppcor</a></p>
 </div>
 
 
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
-</body>
-</html>
