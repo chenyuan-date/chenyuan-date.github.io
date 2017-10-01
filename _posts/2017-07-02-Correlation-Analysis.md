@@ -1,22 +1,22 @@
-﻿---
+﻿---       
 layout: post
-     
-title: Correlation analysis    
+         
+title: Correlation analysis         
 
-author: CY     
+author: CY           
 
 description: "Correlation analysis"
-    
-tags: [R]
+         
+tags: [R]    
      
 categories: [Statistics]
-      
-share: false     
+          
+share: false         
 
-image:
+image:     
   
-  background: triangular.png    
----
+  background: triangular.png         
+---     
 
 <div id="defination" class="section level1">
 <h1>Defination</h1>
