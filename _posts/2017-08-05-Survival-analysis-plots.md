@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Awesome websites
+title: Survival analysis
 author: CY
 tags: [Survival analysis]
 categories: 
