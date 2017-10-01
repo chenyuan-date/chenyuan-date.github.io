@@ -63,7 +63,7 @@ tau = \frac{n_c - n_d}{\frac{1}{2}n(n-1)}
 <div id="calculate-correlation-coefficient" class="section level1">
 <h1>Calculate correlation coefficient</h1>
 <p>Correlation coefficient can be computed using the functions <code>cor()</code> or <code>cor.test()</code>:</p>
-<pre><code>cor(x, y, method = c(&quot;pearson&quot;, &quot;kendall&quot;, &quot;spearman&quot;), use = &quot;complete.obs&quot;)
+<pre class="highlight"><code>cor(x, y, method = c(&quot;pearson&quot;, &quot;kendall&quot;, &quot;spearman&quot;), use = &quot;complete.obs&quot;)
 cor.test(x, y, method=c(&quot;pearson&quot;, &quot;kendall&quot;, &quot;spearman&quot;), use = &quot;complete.obs&quot;)
 
 x and y are two numeric vectors with the same length     
