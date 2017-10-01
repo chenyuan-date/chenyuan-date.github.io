@@ -2,10 +2,9 @@
 layout: post
 title: Survival analysis
 author: CY
-tags: [Survival analysis]
+tags: [Survival_analysis]
 categories: 
-	- Plots
-	- Statistics
+    - Statistics
 share: false
 image:
   background: triangular.png 
