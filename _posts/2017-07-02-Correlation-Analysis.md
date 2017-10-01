@@ -10,8 +10,7 @@ image:
   background: triangular.png 
 ---
 
- background: triangular.png         
----     
+
 
 <div id="defination" class="section level1">
 <h1>Defination</h1>
@@ -216,13 +215,13 @@ method: indicates the correlation coefficient to be computed.
   - pearson(default): measures the linear dependence between two variables. 
   - kendall: non-parametric rank-based correlation test.
   - spearman: non-parametric rank-based correlation test.
-  use = &quot;complete.obs&quot;: case-wise deletion, which is useful for NA-containing matrix.     </code></pre>
-  </div>
-  </div>
-  <div id="computing-the-p-value-of-correlations" class="section level2">
-  <h2>Computing the p-value of correlations</h2>
-  <p>P value calculation principle</p>
-  <pre><code># mat : is a matrix of data
+      use = &quot;complete.obs&quot;: case-wise deletion, which is useful for NA-containing matrix.     </code></pre>
+        </div>
+        </div>
+        <div id="computing-the-p-value-of-correlations" class="section level2">
+        <h2>Computing the p-value of correlations</h2>
+        <p>P value calculation principle</p>
+        <pre><code># mat : is a matrix of data
 # ... : further arguments to pass to the native R cor.test function
 cor.mtest &lt;- function(mat, ...) {
     mat &lt;- as.matrix(mat)
@@ -273,12 +272,12 @@ type: types of layout.
   - &quot;full&quot; (default): display full correlation matrix
   - &quot;upper&quot;: display upper triangular of the correlation matrix
   - &quot;lower&quot;: display lower triangular of the correlation matrix
-  order: reorder the correlation matrix. The correlation matrix can be reordered according to the correlation coefficient. This is important to identify the hidden structure and pattern in the matrix.
+      order: reorder the correlation matrix. The correlation matrix can be reordered according to the correlation coefficient. This is important to identify the hidden structure and pattern in the matrix.
   - &quot;hclust&quot;: for hierarchical clustering order
-  tl.col: for text label color, used to change text colors
-  tl.srt: for text label string rotation. used to change label rotations.</code></pre>
-  <pre class="r"><code>library(RColorBrewer)
-  col&lt;- colorRampPalette(c(&quot;red&quot;, &quot;white&quot;, &quot;blue&quot;))(20)
+      tl.col: for text label color, used to change text colors
+        tl.srt: for text label string rotation. used to change label rotations.</code></pre>
+        <pre class="r"><code>library(RColorBrewer)
+        col&lt;- colorRampPalette(c(&quot;red&quot;, &quot;white&quot;, &quot;blue&quot;))(20)
 
 corrplot(corr, 
          method=&quot;circle&quot;, #visualization method
