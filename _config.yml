@@ -22,7 +22,7 @@ menu:
   - title: 'About'
     url: '/about'
   - title: 'Lists' 
-    url: 'lists'
+    url: '/lists'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
