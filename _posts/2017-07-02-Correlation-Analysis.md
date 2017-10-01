@@ -1,21 +1,16 @@
-﻿---       
+---
 layout: post
-         
-title: Correlation analysis         
-
-author: CY           
-
+title: Correlation analysis
+author: CY
 description: "Correlation analysis"
-         
-tags: [R]    
-     
+tags: [R]
 categories: [Statistics]
-          
-share: false         
+share: false
+image:
+  background: triangular.png 
+---
 
-image:     
-  
-  background: triangular.png         
+ background: triangular.png         
 ---     
 
 <div id="defination" class="section level1">
@@ -171,13 +166,13 @@ res$p.value</code></pre>
 - -1: strong negative correlation<br />
 - 0: no relationship between the two variables (x and y)<br />
 - 1: strong positive correlation</p>
-</div>
-<div id="correlation-matrix" class="section level1">
-<h1>Correlation matrix</h1>
-<p>Function <code>rcorr</code> from Hmisc package used to return correlation coefficients and the correlation p-values, function <code>ggcorrplot</code> from ggcorrplot used to visualize correlation matrix.</p>
-<p>Method one: calculate matrix manually Method two: function <code>ggcorr()</code> in ggally package. However, can’t reorder matrix and display significance level. Method three: <code>corrplot()</code> function from <code>corrplot</code> package can be used Method four: <code>ggcorrplot()</code> function from ggcorrplot package. Functions: reordering, displays significance level, computing a matrix of correlation p-values.</p>
-<pre class="r"><code>#install.packages(&quot;corrplot&quot;)
-library(corrplot)
+  </div>
+  <div id="correlation-matrix" class="section level1">
+  <h1>Correlation matrix</h1>
+  <p>Function <code>rcorr</code> from Hmisc package used to return correlation coefficients and the correlation p-values, function <code>ggcorrplot</code> from ggcorrplot used to visualize correlation matrix.</p>
+  <p>Method one: calculate matrix manually Method two: function <code>ggcorr()</code> in ggally package. However, can’t reorder matrix and display significance level. Method three: <code>corrplot()</code> function from <code>corrplot</code> package can be used Method four: <code>ggcorrplot()</code> function from ggcorrplot package. Functions: reordering, displays significance level, computing a matrix of correlation p-values.</p>
+  <pre class="r"><code>#install.packages(&quot;corrplot&quot;)
+  library(corrplot)
 
 #install.packages(&quot;Hmisc&quot;)
 library(Hmisc)</code></pre>
@@ -221,13 +216,13 @@ method: indicates the correlation coefficient to be computed.
   - pearson(default): measures the linear dependence between two variables. 
   - kendall: non-parametric rank-based correlation test.
   - spearman: non-parametric rank-based correlation test.
-use = &quot;complete.obs&quot;: case-wise deletion, which is useful for NA-containing matrix.     </code></pre>
-</div>
-</div>
-<div id="computing-the-p-value-of-correlations" class="section level2">
-<h2>Computing the p-value of correlations</h2>
-<p>P value calculation principle</p>
-<pre><code># mat : is a matrix of data
+  use = &quot;complete.obs&quot;: case-wise deletion, which is useful for NA-containing matrix.     </code></pre>
+  </div>
+  </div>
+  <div id="computing-the-p-value-of-correlations" class="section level2">
+  <h2>Computing the p-value of correlations</h2>
+  <p>P value calculation principle</p>
+  <pre><code># mat : is a matrix of data
 # ... : further arguments to pass to the native R cor.test function
 cor.mtest &lt;- function(mat, ...) {
     mat &lt;- as.matrix(mat)
@@ -278,12 +273,12 @@ type: types of layout.
   - &quot;full&quot; (default): display full correlation matrix
   - &quot;upper&quot;: display upper triangular of the correlation matrix
   - &quot;lower&quot;: display lower triangular of the correlation matrix
-order: reorder the correlation matrix. The correlation matrix can be reordered according to the correlation coefficient. This is important to identify the hidden structure and pattern in the matrix.
+  order: reorder the correlation matrix. The correlation matrix can be reordered according to the correlation coefficient. This is important to identify the hidden structure and pattern in the matrix.
   - &quot;hclust&quot;: for hierarchical clustering order
-tl.col: for text label color, used to change text colors
-tl.srt: for text label string rotation. used to change label rotations.</code></pre>
-<pre class="r"><code>library(RColorBrewer)
-col&lt;- colorRampPalette(c(&quot;red&quot;, &quot;white&quot;, &quot;blue&quot;))(20)
+  tl.col: for text label color, used to change text colors
+  tl.srt: for text label string rotation. used to change label rotations.</code></pre>
+  <pre class="r"><code>library(RColorBrewer)
+  col&lt;- colorRampPalette(c(&quot;red&quot;, &quot;white&quot;, &quot;blue&quot;))(20)
 
 corrplot(corr, 
          method=&quot;circle&quot;, #visualization method
