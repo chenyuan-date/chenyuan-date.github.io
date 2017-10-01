@@ -21,7 +21,8 @@ menu:
     url: '/'
   - title: 'About'
     url: '/about'
-
+  - title: 'List' 
+    url: 'list'
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'

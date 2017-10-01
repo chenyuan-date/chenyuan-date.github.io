@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Lists of all posts"
+comments: false
+share: false
+---
+
+<article class="hentry">
+	<div id="toc" style="display: block;">
+		<ol class="lorem ipsum">
+			{% for post in site.posts %}
+				<li class="dolor sit amet">
+				<a href={{ site.url }}{{ post.url }}>{{ post.title }}</a>
+				</li>	
+			{% endfor %}
+		</ol>
+	</div>
+</article><!-- /.hentry -->
