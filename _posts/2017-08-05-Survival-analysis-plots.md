@@ -7,8 +7,6 @@ categories:
     - Statistics
     - Plots
 share: false
-image:
-  background: triangular.png 
 ---
 
 
