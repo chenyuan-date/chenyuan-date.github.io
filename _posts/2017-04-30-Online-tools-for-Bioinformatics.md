@@ -10,7 +10,7 @@ image:
   background: triangular.png 
 ---
 
-# 韦恩图
+### 韦恩图
 
 **工具：Venny2.0**
 
@@ -18,7 +18,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI5zAyB9byia0M3rw8Ocq3EsLBNYkEfVnc4DrZKFtDcVmicsacJxuEiayUw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 基因预测
+### 基因预测
 
 **工具：FGENESH**
 
@@ -26,7 +26,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI8wdzuL2KyMxNetP1kOKic7HKuTT0Upff2hoHWGsPLnr7MEyniaDAwyTg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# phylogenetic
+### phylogenetic
 
 **工具：iTOL**
 
@@ -34,7 +34,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIozolWcz3au8DxZuiccAhFpwmpzzvhuwybHibZJaZBcIpgV8luYxqkjxQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 启动子区预测
+### 启动子区预测
 
 **工具：Promoter Scan**
 
@@ -42,7 +42,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIoZO8ibVOFT7DlnnM6Tb6jZ5hVQCAuwr8TV5AsZ2kicMEl0Uic8RxyoWwA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 蛋白质一级结构分析
+### 蛋白质一级结构分析
 
 **工具：PredictProte**
 
@@ -56,7 +56,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIkyWDKle7CNBjwzWS5p8eVT8hHsRicm2N1gQsw20SWC33apCagiaUJyqA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 信号肽
+### 信号肽
 
 **工具：SignalP**
 
@@ -64,7 +64,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIT0icqSeIialDLFeZn4pmljBN1aUnXeb5MtQPSWafLYiaoyv9s3KIdoSWg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 跨膜结构域
+### 跨膜结构域
 
 **工具：TMHMM Server v. 2.0******
 
@@ -72,7 +72,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIUPBgVw72DnLNlSu51iaDHkFpxhWWXjTVSTcVjFYoCwBaFQHAxpfaZQQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 蛋白质亚细胞定位
+### 蛋白质亚细胞定位
 
 **工具：PSORT II Prediction**
 
@@ -80,7 +80,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIO3z7kXV1deEian8lGe5qr8mpzRX4hK4wf8hQMlIPsHYvJQjWuYibAHHg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 蛋白质三级结构预测
+### 蛋白质三级结构预测
 
 **工具：SWISS-MODEL**
 
@@ -88,7 +88,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIanssOpmzXKnSBuicemWBEL8iadYR1DEfd4fZ4JJr9aGoP5l95hYibZBnw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 短序列拼接
+### 短序列拼接
 
 **工具：Cap3**
 
@@ -96,7 +96,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI4XwBPkS5lFQh7czR6uJexZ59T1k3icdHMnfZT3KvBt6IoBl4WyLe81w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 多序列比对相似性展示
+### 多序列比对相似性展示
 
 **工具：SimiTriX-SimiTetra**
 
@@ -106,7 +106,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIHCzkHwrxKIuSkaqaCCkz31rjNlMaOFicbBn5mnTpuhUByvicS3lMg1Aw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 绘制GO注释结果
+### 绘制GO注释结果
 
 **工具：WEGO**（Web Gene Ontology Annotation Plotting）
 
@@ -114,7 +114,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI6oTPkHZGvYBSx4PHg70CDkkyaTQ2fh8icrLa4BKY7UN3BsPbNkr43fg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 蛋白质domain
+### 蛋白质domain
 
 **工具：Pfam database**
 
@@ -122,7 +122,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIK9RNx11czxH4UKBj6fR1LS6hiaNCpDQHVwVa8qUPvT1HxZbcqrsUCKQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# 基因组杂合性评估
+### 基因组杂合性评估
 
 **工具：GenomeScope**（Estimate genome heterozygosity, repeat content, and size from sequencing reads using a kmer-based statistical approach）
 
@@ -130,7 +130,7 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIhSDZdDeO7n7YSj6hsgEzcHx8YiaZofTzsiaCjn3nGUbnyVHecyibjiaZiag/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
-# circos图
+### circos图
 
 **工具：CIRCOS**（可以用来画基因组数据的环状图，也可以用来绘制其它数据的相关环状图。）
 
@@ -142,4 +142,4 @@ image:
 2. 在线版只能绘制75阶方阵数据，若需要绘制较复杂的请下载Circos and use the tableviewer tool。
 3. 每一个标签所对应半圈的总长度为这一标签所对应的所有值的和，不同半圈间连线表示这两标签所表示的值。
 
-# [References](http://tiramisutes.github.io/2015/08/05/bio-online.html)
+### [References](http://tiramisutes.github.io/2015/08/05/bio-online.html)

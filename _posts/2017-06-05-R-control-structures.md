@@ -11,7 +11,7 @@ image:
 
 
 
-R control structure types in R:  
+### R control structure types  
 
 - conditional execution             
   + if(condition){expression1} else{expression2}    
@@ -28,7 +28,8 @@ R control structure types in R:
   + sapply()
   + tapply()
 
-# apply family
+
+### apply family
 
 | 函数           | 作用                                       |
 | ------------ | ---------------------------------------- |
@@ -36,7 +37,7 @@ R control structure types in R:
 | lapply(x,f)  | 针对列表(x)中的各个要素就行算法(f)处理, 结果以列表返还          |
 | sapply(x,f)  | 针对列表(x)中的各个要素就行算法(f)处理, 结果以矢量返还          |
 
-## apply 
+####  apply 
 对数组或者矩阵的一个维度使用函数生成值得到列表, 数组或者向量    
 
 ```
@@ -75,13 +76,13 @@ apply(m, 2, sqrt)
 ## [4,] 2.000000 2.828427 3.464102 4.000000
 ```
 
-## lapply
+#### lapply
 通过对x的每一个元素运用函数，生成一个与元素个数相同的值列表    
 
-## sapply
+#### sapply
 是lapply 函数的包装版, 该函数返回结果是向量或者矩阵, 如果simplify="array", 且合适的情况下, 将会通过 simplify2array() 函数转换为阵列    
 
-# ifelse 
+### ifelse 
 `ifelse()` can be nested in many ways:
 ```
 ifelse(<condition>, <yes>, <no>)         

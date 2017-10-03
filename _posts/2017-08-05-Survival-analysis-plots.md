@@ -7,11 +7,13 @@ categories:
     - Statistics
     - Plots
 share: false
+image:
+  background: triangular.png 
 ---
 
 
 
-# 准备工作
+### 准备工作
 
 ```r
 #安装R包
@@ -57,7 +59,7 @@ head(lung)
 #wt.loss:	 Weight loss in last six months
 ```
 
-# 建立生存分析
+### 建立生存分析
 
 ```r
 #创建生存数据对象
@@ -117,7 +119,7 @@ summary(fit1, times=c(200, 400))
 ##   400     57      54    0.377  0.0358        0.313        0.454
 ```
 
-# 不同因子生存曲线的比较
+### 不同因子生存曲线的比较
 
 例如我们想比较男性和女性肺癌患者生存曲线的差别
 
@@ -183,9 +185,9 @@ surv_diff
 ##  Chisq= 10.3  on 1 degrees of freedom, p= 0.00131
 ```
 
-# 生存曲线可视化
+### 生存曲线可视化
 
-## 绘制两条生存曲线
+#### 绘制两条生存曲线
 
 ```r
 ggsurv <- ggsurvplot(fit2, #survfit object with calculated statistics.
@@ -234,7 +236,7 @@ ggsurv
 
 ![](/images/Survival-analysis-unnamed-chunk-5-1.png)
 
-## 绘制多条生存曲线
+#### 绘制多条生存曲线
 
 ```r
 fit3 <- survfit(Surv(time, status) ~ sex + rx + adhere, data = colon )
@@ -252,9 +254,9 @@ ggsurvplot(fit3,
 
 ![](/images/Survival-analysis-unnamed-chunk-6-1.png)
 
-# Cox回归
+### Cox回归
 
-## 单因素COX回归
+#### 单因素COX回归
 
 ```r
 covariates <- c("age", "sex",  "ph.karno", "ph.ecog", "meal.cal", "wt.loss")
@@ -296,7 +298,7 @@ as.data.frame(results)
 ```
 
 
-## 多因素COX回归
+#### 多因素COX回归
 
 多个自变量是如何共同影响因变量
 
@@ -343,7 +345,7 @@ COX回归结果解释
 5. 对模型的整体分析，即评价模型是否有意义的三种检验(Likelihood ratio test, Wald test, Score (logrank) test)
 ```
 
-## COX模型等比性检验
+#### COX模型等比性检验
 
 ```
 方法一：通过图形展示，对纵轴和横轴分别取对数，绘制不同自变量水平下的生存曲线。如果两条曲线平行，则符合比例风险假定.

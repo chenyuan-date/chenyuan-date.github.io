@@ -6,16 +6,13 @@ tags: [R plots]
 categories: [R plots]
 ---
 
-Rstudio
--------
-
+### Rstudio
 [RStudio](https://www.rstudio.com/) is a free and open-source integrated development environment (IDE) for R, a programming language for statistical computing and graphics.    
 RStudio was founded by `JJ Allaire`, creator of the programming language ColdFusion. Hadley Wickham is the Chief Scientist at RStudio.
 
-ggplot2
--------
+### ggplot2
 ggplot2 is a data visualization package for the statistical programming language R. Created by Hadley Wickham in 2005. It's a function to build plots piece by piece.   
-The concept behind ggplot2 divides plot into three different fundamental parts:       Plot = data + Aesthetics + Geometry.  
+The concept behind ggplot2 divides plot into three different fundamental parts:       `Plot = data + Aesthetics + Geometry`.  
 
 The principal components of every plot can be defined as follow:   
 - data is a data frame    
@@ -34,10 +31,9 @@ Install and load ggplot2 package:
 library(ggplot2)
 ```
 
-plot type selection
--------------------
+### plot type selection
 
-### One variable: Continuous
+#### One variable: Continuous
 - geom_area(): Create an area plot
 - geom_density(): Create a smooth density estimate
 - geom_dotplot(): Dot plot
@@ -46,9 +42,9 @@ plot type selection
 - stat_ecdf(): Empirical Cumulative Density Function
 - stat_qq(): quantile - quantile plot
 
-### One variable: Discrete
+#### One variable: Discrete
 
-### Two variables: Continuous X, Continuous Y
+#### Two variables: Continuous X, Continuous Y
 - geom_point(): Scatter plot
 - geom_smooth(): Add regression line or smoothed conditional mean
 - geom_quantile(): Add quantile lines from a quantile regression
@@ -56,14 +52,14 @@ plot type selection
 - geom_jitter(): Jitter points to reduce overplotting
 - geom_text(): Textual annotations
 
-### Two variables: Continuous bivariate distribution 
+#### Two variables: Continuous bivariate distribution 
 - geom_bin2d(): Add heatmap of 2d bin counts
 - geom_hex(): Add hexagon bining
 - geom_density_2d(): Add contours from a 2d density estimate
 
-### Two variables: Continuous function
+#### Two variables: Continuous function
 
-### Two variables: Discrete X, Continuous Y
+#### Two variables: Discrete X, Continuous Y
 - geom_boxplot(): Box and whiskers plot
 - geom_violin(): Violin plot
 - geom_dotplot(): Dot plot
@@ -71,21 +67,20 @@ plot type selection
 - geom_line(): Line plot
 - geom_bar(): Bar plot
 
-### Two variables: Discrete X, Discrete Y
+#### Two variables: Discrete X, Discrete Y
 
-### Two variables: Visualizing error
+#### Two variables: Visualizing error
 - geom_crossbar(): Hollow bar with middle indicated by horizontal line
 - geom_errorbar(): Error bars
 - geom_errorbarh(): Horizontal error bars
 - geom_linerange() and geom_pointrange(): An interval represented by a vertical line
 - Combine geom_dotplot and error bars
 
-### Two variables: Maps
+#### Two variables: Maps
 
-### Three variables
+#### Three variables
 
-Interesting R
--------------
+### Interesting R
 Pure Love  
 ``` r
 n=50000;
@@ -141,8 +136,7 @@ print(p)
 
 So, R is quite interesting and attracting, why not learn it. Let's go~  
 
-References
-----------
+### References
 [Be Awesome in ggplot2](http://www.sthda.com/english/wiki/be-awesome-in-ggplot2-a-practical-guide-to-be-highly-effective-r-software-and-data-visualization#one-variable-discrete)   
 [R STHDA](http://www.sthda.com/english/wiki/r-software)  
 [Interesting R](https://www.plob.org/article/1221.html)  
