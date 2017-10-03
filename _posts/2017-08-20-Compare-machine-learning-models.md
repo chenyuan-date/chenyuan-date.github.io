@@ -40,7 +40,7 @@ head(PimaIndiansDiabetes)
 ## 6        5     116       74       0       0 25.6    0.201  30      neg
 ```
 
-# Train Models
+### Train Models
 
 ```r
 # prepare training scheme
@@ -74,10 +74,10 @@ We use repeated cross validation with 10 folds and 3 repeats, a common standard 
 
 After the models are trained, they are added to a list and resamples() is called on the list of models. This function checks that the models are comparable and that they used the same training scheme (trainControl configuration). This object contains the evaluation metrics for each fold and each repeat for each algorithm to be evaluated.  
 
-# Compare Models 
+### Compare Models 
 8 different techniques for comparing the estimated accuracy of the constructed models 
 
-## Table Summary
+#### Table Summary
 Create a table with one algorithm for each row and evaluation metrics for each column. In this case we have sorted.
 
 ```r
@@ -112,7 +112,7 @@ summary(results)
 ## GLMNET 0.2715655 0.4388664 0.4562546 0.4831300 0.5427711 0.6994536    0
 ```
 
-## Box and Whisker Plots  
+#### Box and Whisker Plots  
 The boxes are ordered from highest to lowest mean accuracy.
 
 ```r
@@ -123,7 +123,7 @@ bwplot(results, scales=scales)
 
 ![](/images/Compare-ML-model-unnamed-chunk-5-1.png)
 
-## Density Plots
+#### Density Plots
 A useful way to evaluate the overlap in the estimated behavior of algorithms.  
 
 ```r
@@ -134,7 +134,7 @@ densityplot(results, scales=scales, pch = "|")
 
 ![](/images/Compare-ML-model-unnamed-chunk-6-1.png)
 
-## Dot Plots
+#### Dot Plots
 
 ```r
 # dot plots of accuracy
@@ -144,7 +144,7 @@ dotplot(results, scales=scales)
 
 ![](/images/Compare-ML-model-unnamed-chunk-7-1.png)
 
-## Parallel Plots
+#### Parallel Plots
 It shows how each trial of each cross validation fold behaved for each of the algorithms tested. It can help you see how those hold-out subsets that were difficult for one algorithms faired for other algorithms.   
 
 ```r
@@ -154,7 +154,7 @@ parallelplot(results)
 
 ![](/images/Compare-ML-model-unnamed-chunk-8-1.png)
 
-## Scatterplot Matrix
+#### Scatterplot Matrix
 This is invaluable when considering whether the predictions from two different algorithms are correlated. If weakly correlated, they are good candidates for being combined in an ensemble prediction.   
 
 ```r
@@ -164,7 +164,7 @@ splom(results)
 
 ![](/images/Compare-ML-model-unnamed-chunk-9-1.png)
 
-## Pairwise xyPlots
+#### Pairwise xyPlots
 One can zoom in on one pair-wise comparison of the accuracy of trial-folds for two machine learning algorithms with an xyplot.    
 
 ```r
@@ -174,7 +174,7 @@ xyplot(results, models=c("LDA", "SVM"))
 
 ![](/images/Compare-ML-model-unnamed-chunk-10-1.png)
 
-## Statistical Significance Tests
+#### Statistical Significance Tests
 You can calculate the significance of the differences between the metric distributions of different machine learning algorithms. We can summarize the results directly by calling the summary() function.            
 
 ```r
@@ -212,6 +212,6 @@ summary(diffs)
 ## GLMNET 0.001699 1.000000  0.241364  8.624e-05 1.000000
 ```
 
-References   
+### References   
 [Compare The Performance of Machine Learning Algorithms in R](https://machinelearningmastery.com/compare-the-performance-of-machine-learning-algorithms-in-r/)   
 
