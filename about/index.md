@@ -4,15 +4,17 @@ title: About
 share: false
 ---
 
-# Who am I
+# Who are we?
 
-A PhD student
+Rabbit, Pig, Monkey (RPM for short) to memorize 
 
-# What I am doing
+# What are we doing
 
 Learn, Summary, Record, Share, Enjoy
 
-# Why I do
+# Why we do
 
-For the dream
+For future and dream    
+
+For the colorful life          
 
