@@ -3,7 +3,7 @@ layout: post
 title: tidyverse
 author: CY
 tags: [R]
-categories: [R]
+categories: [tidyverse]
 share: false
 image:
   background: triangular.png 
