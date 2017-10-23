@@ -164,7 +164,7 @@ head(xmldataframe)
 ## 6      One night only        Bee Gees      UK        Polydor 10.90 1998
 ```
 
-### Extract data from many webpages 
+### Extract table from many webpages 
 Use loops to extract data for each page     
 
 ```r
@@ -182,5 +182,43 @@ for (i in 1:12) {
 }
 ```
 
+
+
+### Extract page content
+
+```
+library(XML);
+url1<-"http://www.genetics.ac.cn/rcjy/"
+url <- htmlParse(url1,encoding="UTF-8")  #把html文件读入R语言中并解析
+
+# 找结点，提出来所有的链接
+links <- xpathSApply(url, path = "//a/@href")
+# 通过正则提取出来每个导师的链接
+supervisor <- grep(pattern="http://sourcedb.genetics.cas.cn/zw/zjrck/", x=links, value=TRUE)
+# 去掉冗余，共有89个导师的item
+Supervisor <- as.data.frame(unique(supervisor))
+
+===========================================================================
+# 测试提取单个网页的信息，以李振声老师的为例：
+url2 <-"http://sourcedb.genetics.cas.cn/zw/zjrck/200907/t20090721_2130994.html"
+url3 <- htmlParse(url2,encoding="UTF-8")  #把html文件读入R语言中并解析
+
+# 找结点，提出来所有的链接
+name <- getNodeSet(url3, path = "//h1")[[1]]
+zc <- xpathSApply(url3, path = "//div[@id='zc']")[[1]]
+zw <- xpathSApply(url3, path = "//div[@id='zw']")[[1]]
+dh <- xpathSApply(url3, path = "//div[@id='dh']")[[1]]
+cz <- xpathSApply(url3, path = "//div[@id='cz']")[[1]]
+fjdz <- xpathSApply(url3, path = "//div[@id='fjdz']")[[1]]
+dzyj <- xpathSApply(url3, path = "//div[@id='dzyj']")[[1]]
+qtbz <- xpathSApply(url3, path = "//div[@id='qtbz']")[[1]]
+
+# 把以上信息整理成表格形式
+Li <- 
+```
+
+
+
 ### References 
+
 [R Error using readHTMLTable](https://stackoverflow.com/questions/17045107/r-error-using-readhtmltable)     
