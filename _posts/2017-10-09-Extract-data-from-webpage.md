@@ -204,14 +204,15 @@ url2 <-"http://sourcedb.genetics.cas.cn/zw/zjrck/200907/t20090721_2130994.html"
 url3 <- htmlParse(url2,encoding="UTF-8")  #把html文件读入R语言中并解析
 
 # 找结点，提出来所有的链接
-name <- getNodeSet(url3, path = "//h1")[[1]]
-zc <- xpathSApply(url3, path = "//div[@id='zc']")[[1]]
-zw <- xpathSApply(url3, path = "//div[@id='zw']")[[1]]
-dh <- xpathSApply(url3, path = "//div[@id='dh']")[[1]]
-cz <- xpathSApply(url3, path = "//div[@id='cz']")[[1]]
-fjdz <- xpathSApply(url3, path = "//div[@id='fjdz']")[[1]]
-dzyj <- xpathSApply(url3, path = "//div[@id='dzyj']")[[1]]
-qtbz <- xpathSApply(url3, path = "//div[@id='qtbz']")[[1]]
+name <- getNodeSet(url3, path = "//h1/text()")[[1]]
+zc <- xpathSApply(url3, path = "//div[@id='zc']/text()")[[1]]
+zw <- xpathSApply(url3, path = "//div[@id='zw']/text()")[[1]]
+dh <- xpathSApply(url3, path = "//div[@id='dh']/text()")[[1]]
+cz <- xpathSApply(url3, path = "//div[@id='cz']/text()")[[1]]
+fjdz <- xpathSApply(url3, path = "//div[@id='fjdz']/text()")[[1]]
+dzyj <- xpathSApply(url3, path = "//div[@id='dzyj']/text()")[[1]]
+# dzyj <- xpathSApply(url3, path = "//*[contains(concat( " ", @class, " " ), concat( " ", "t2_link\'", " " ))]")  # unsolved
+qtbz <- xpathSApply(url3, path = "//div[@id='qtbz']/text()")[[1]]
 
 # 把以上信息整理成表格形式
 Li <- 
