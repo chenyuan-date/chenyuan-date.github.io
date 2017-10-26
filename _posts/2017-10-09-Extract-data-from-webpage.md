@@ -214,6 +214,8 @@ dzyj <- xpathSApply(url3, path = "//div[@id='dzyj']/text()")[[1]]
 # dzyj <- xpathSApply(url3, path = "//*[contains(concat( " ", @class, " " ), concat( " ", "t2_link\'", " " ))]")  # unsolved
 qtbz <- xpathSApply(url3, path = "//div[@id='qtbz']/text()")[[1]]
 
+xpathSApply(url3, path = '//div[@id="dzyj"]/script/text()', function(x) { stringr::str_extract(xmlValue(x), '[0-9a-zA-Z\\._]+@[0-9a-zA-Z\\._]+')})
+
 # 把以上信息整理成表格形式
 Li <- 
 ```
