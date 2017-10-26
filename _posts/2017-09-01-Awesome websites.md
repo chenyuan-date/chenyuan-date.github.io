@@ -29,4 +29,7 @@ image:
 
 
 
+5. [CANADIAN BIOINFORMATICS WORKSHOPS](https://bioinformatics.ca/)
+
+
 Continuing ... 
