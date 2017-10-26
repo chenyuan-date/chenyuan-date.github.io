@@ -29,7 +29,14 @@ image:
 
 
 
-5. [CANADIAN BIOINFORMATICS WORKSHOPS](https://bioinformatics.ca/)
+5. [Candian Bioinformatics Workshops](https://bioinformatics.ca/)
+
+
+
+6. [Bio-Bio-Bio](http://bio-bio-bio.com/)
+
+
+7. 
 
 
 Continuing ... 
