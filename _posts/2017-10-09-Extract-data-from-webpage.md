@@ -184,42 +184,6 @@ for (i in 1:12) {
 
 
 
-### Extract page content
-
-```
-library(XML);
-url1<-"http://www.genetics.ac.cn/rcjy/"
-url <- htmlParse(url1,encoding="UTF-8")  #把html文件读入R语言中并解析
-
-# 找结点，提出来所有的链接
-links <- xpathSApply(url, path = "//a/@href")
-# 通过正则提取出来每个导师的链接
-supervisor <- grep(pattern="http://sourcedb.genetics.cas.cn/zw/zjrck/", x=links, value=TRUE)
-# 去掉冗余，共有89个导师的item
-Supervisor <- as.data.frame(unique(supervisor))
-
-===========================================================================
-# 测试提取单个网页的信息，以李振声老师的为例：
-url2 <-"http://sourcedb.genetics.cas.cn/zw/zjrck/200907/t20090721_2130994.html"
-url3 <- htmlParse(url2,encoding="UTF-8")  #把html文件读入R语言中并解析
-
-# 找结点，提出来所有的链接
-name <- getNodeSet(url3, path = "//h1/text()")[[1]]
-zc <- xpathSApply(url3, path = "//div[@id='zc']/text()")[[1]]
-zw <- xpathSApply(url3, path = "//div[@id='zw']/text()")[[1]]
-dh <- xpathSApply(url3, path = "//div[@id='dh']/text()")[[1]]
-cz <- xpathSApply(url3, path = "//div[@id='cz']/text()")[[1]]
-fjdz <- xpathSApply(url3, path = "//div[@id='fjdz']/text()")[[1]]
-dzyj <- xpathSApply(url3, path = "//div[@id='dzyj']/text()")[[1]]
-# dzyj <- xpathSApply(url3, path = "//*[contains(concat( " ", @class, " " ), concat( " ", "t2_link\'", " " ))]")  # unsolved
-qtbz <- xpathSApply(url3, path = "//div[@id='qtbz']/text()")[[1]]
-
-# 把以上信息整理成表格形式
-Li <- 
-```
-
-
-
 ### References 
 
 [R Error using readHTMLTable](https://stackoverflow.com/questions/17045107/r-error-using-readhtmltable)     
