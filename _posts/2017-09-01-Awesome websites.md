@@ -29,4 +29,21 @@ image:
 
 
 
+5. [Candian Bioinformatics Workshops](https://bioinformatics.ca/)
+
+
+
+6. [Bio-Bio-Bio](http://bio-bio-bio.com/)
+
+
+7. [DataAnalysisWorkshop](https://github.com/dgrapov/DataAnalysisWorkshop)
+Statistical and Data Analysis Workshop for Metabolomics
+
+8. [MetaMapR](https://github.com/dgrapov/MetaMapR)
+Network mapping tool for metabolomics + data.
+
+9. [metabolomics collection](https://github.com/search?utf8=%E2%9C%93&q=metabolomics&type=)
+
+
+
 Continuing ... 
