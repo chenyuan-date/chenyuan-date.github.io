@@ -1,4 +1,4 @@
-```
+---
 layout: post
 title: KEGG usage
 author: CY
@@ -7,7 +7,7 @@ categories: [Bioinformatics]
 share: false
 image:
   background: triangular.png 
-```
+---
 
 
 
