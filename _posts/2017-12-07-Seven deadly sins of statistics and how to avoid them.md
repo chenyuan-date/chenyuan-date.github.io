@@ -13,7 +13,9 @@ image:
 
 今天统计部门的领导在PiCR课上给我们讲了如何规避统计分析中的7个陷阱。废话不多说，直接上干货。
 
-### **Sin 1: Using uninformative or misleading plots**
+
+
+### Sin 1: Using uninformative or misleading plots**
 
 **How to avoid:**
 
@@ -29,7 +31,8 @@ image:
 
 
 
-### **Sin 2: Ignoring the hierarchical structure of data**
+
+### Sin 2: Ignoring the hierarchical structure of data**
 
 **How to avoid:**
 
@@ -49,7 +52,7 @@ image:
     - Substitute in case of technical replicates of biological replicates:
        - average technical replicates for every biological replicate.
 
-   ​
+   
 
 ### **Sin 3: State that you proved the null hypothesis**
 
@@ -84,7 +87,8 @@ Type II error: False negative
 
 
 
-### **Sin 4: Not distinguishing between statistical significance and practical relevance**
+
+### Sin 4: Not distinguishing between statistical significance and practical relevance**
 
 **How to avoid:**
 
@@ -110,7 +114,7 @@ Type II error: False negative
 
 
 
-### **Sin 5: Select variables for multivariable model by significance in univariable models **
+### Sin 5: Select variables for multivariable model by significance in univariable models 
 
 **How to avoid:**
 
@@ -147,6 +151,8 @@ Type II error: False negative
 4. If no separate test set is available, split your data set into training and test set.
 
 5. Crossvalidation, bootstrapping, ...
+
+   ​
 
 
 
