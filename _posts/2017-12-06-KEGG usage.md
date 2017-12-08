@@ -31,13 +31,43 @@ GO分析好比是将基因分门别类放入一个个功能类群，而pathway�
 
 
 
+### Search pathways
+
+例如：查看KEGG中参与信号转导的信号通路，并点击mTOR信号通路，查看其关联的信号通路及调控的表型。  
+
+- [KEGG数据库首页](http://www.genome.jp/kegg/)
+
+- `Data-oriented entry points`下面的`KEGG PATHWAY`
+
+- 在点开后的页面往下拉到 `Environmental Information Processing`下面的`Signal transduction`。
+
+- 找到mTOR信号通路，点进去。圆角矩形文本框中的就是其相关联的信号通路。
+
+  我们可以看到，mTOR上游有AMPK、MAPK、Insulin、PI3K-AKT等信号通路，各通路之间又有交互影响。mTOR通路可以影响微管组织、脂解作用、脂类合成、自噬、蛋白合成、细胞骨架、细胞存活等表型，其中自噬、甘油酯代谢、actin细胞骨架调控在本数据库里有通路图谱。
+
+  ​
+
 ### Disease related pathways
 
 例如我是研究乳腺癌的，我想看一下乳腺癌相关信号通路。
 
-`首页` --> `Data-oriented entry points下面的KEGG PATHWAY` --> `选择organism前缀为hsa, 后边框内输入breast cancer`  --> `名为hsa05224的信号通路即为乳腺癌相关信号通路`
+- [KEGG数据库首页](http://www.genome.jp/kegg/)
+- `Data-oriented entry points`下面的`KEGG PATHWAY`
+- 在点开后的页面往下拉到 `Human Diseases`下面的`Breast cancer`。
 
 [Breast cancer - Homo sapiens (human)](http://www.kegg.jp/kegg-bin/highlight_pathway?scale=1.0&map=hsa05224&keyword=breast%20cancer)
+
+
+
+###Search genes and involved pathways
+
+例如：使用KEGG检索人类基因PTEN的信息并查看其参与了哪些信号通路，查看其在p53信号通路中的位置。
+
+- [KEGG数据库首页](http://www.genome.jp/kegg/)
+- `Data-oriented entry points`下面的`KEGG GENES`
+- 在弹出的页面中，三个检索栏都可以用，推荐用第三个，比较准确简洁。注意格式，`物种 : 基因`。输入hsa:PTEN
+- 弹窗显示该基因的信息，包括其参与的24个信号通路，其中就有我们要找的[p53信号通路](http://www.genome.jp/kegg-bin/show_pathway?hsa04115+5728)
+- 点击通路编号“hsa04115”，就可看到信号通路图，我们查询的PTEN基因被红色标注了出来。如果要查找该通路中的其他基因，也可以在本页面的搜索框中输入相应关键词，同样得到红色高亮显示。
 
 
 
@@ -64,7 +94,7 @@ GO分析好比是将基因分门别类放入一个个功能类群，而pathway�
 
 基因表达分析以后，会进行组间差异筛选以及差异基因的KEGG（pathway）富集分析，有时会对感兴趣基因进行富集分析和标记pathway图中关注基因。如何对KEGG数据库进行关注基因的DIY标记呢？
 
-1. 整理关注基因的信息文本。整理方法如下：如果是芯片数据，又需要将上调基因和下调基因用不同颜色区分，在excel表格中整理两列，第一列是Entrez geneID，第二列附上表示不同颜色的英文单词，例如上调基因用red标记，下调基因用green标记（这个是中国传统的惯性，但是我的德国老板说，红色代表赤字，所以在他们的规则里，红色要代表下调的基因，绿色代表上调基因，在quora上一查还真是这样）。如果不是芯片数据，也可以根据自己的需求将不同ID号后面附上不同颜色单词，用以在通路图中不同基因标记不同颜色。然后另存为“文本文件（制表符分隔）”格式文件(.txt)。
+1. 整理关注基因的信息文本。整理方法如下：如果是芯片数据，又需要将上调基因和下调基因用不同颜色区分，在excel表格中整理两列，第一列是Entrez geneID，第二列附上表示不同颜色的英文单词(注意颜色名称都要小写，否则KEGG识别不出来)，例如上调基因用red标记，下调基因用green标记（这个是中国传统的惯性，但是我的德国老板说，红色代表赤字，所以在他们的规则里，红色要代表下调的基因，绿色代表上调基因，在quora上一查还真是这样）。如果不是芯片数据，也可以根据自己的需求将不同ID号后面附上不同颜色单词，用以在通路图中不同基因标记不同颜色。然后另存为“文本文件（制表符分隔）”格式文件(.txt)。
 
 
 
@@ -77,9 +107,20 @@ GO分析好比是将基因分门别类放入一个个功能类群，而pathway�
 | 2645         | green |
 | 83440        | green |
 
+ - Tips: 不同数据库对基因的识别码不一样，而KEGG只支持三个数据库的识别码，即KEGG、NCBI、Uniprot，所以如果只有基因名字的话，要进行转换。批量转换比较便捷的方法是用[Uniprot在线工具](http://www.uniprot.org/)。
 
 
-2. 找到输入以上信息的页面流程如下：`[KEGG数据库首页](http://www.genome.jp/kegg/)`  --> `点击页面尾部Analysis tools中KEGG Mapper` -->  `点击侧边工具栏的Search&Color Pathway`  
+ - 打开[Uniprot在线工具](http://www.uniprot.org/)，点`Retrieve/ID mapping`进入页面，贴上自己的基因名，下方选择输入和需要输出的识别码类型，填好物种信息，就可点“Go”转换。
+ - 在弹出的页面中选择Reviewed的结果，再选择下载格式（Excel、非压缩）；也可以点旁边的Columns选择我们需要的列名。Entry即Uniprot编码。
+ - 下载好后，将Entry贴到我们原来的表格中
+
+
+
+2. 找到输入以上信息的页面流程如下：
+
+   1. [KEGG数据库首页](http://www.genome.jp/kegg/)
+   2. 点击页面尾部`Analysis tools`中`KEGG Mapper`
+   3. 点击侧边工具栏的`Search&Color Pathway` 
 
 3. 在“Search against”选项中选择您需要标记基因的物种，点击“org”，输入物种的英文名字，会出现相应物种对应的3个字母缩写名称，选择即可。例如“Humansapiens（human）”，对应3个字母名称为hsa，在“Primary ID”选项中选择“NCBIGeneID”，之后点击“选择文件”这项，输入整理好的.txt文件 (或者直接输入到文本框中也是一样的)，完成后，点击“Exec”选项提交即可，之后会出现关注基因都被富集到哪个通路的信息。
 
