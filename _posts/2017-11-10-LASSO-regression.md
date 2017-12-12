@@ -1,5 +1,4 @@
 ---
-​---
 layout: post
 title: LASSO regression
 author: CY
@@ -8,7 +7,6 @@ categories: [Biostatistics]
 share: false
 image:
   background: triangular.png 
-​---
 ---
 
 

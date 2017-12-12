@@ -1,5 +1,4 @@
 ---
-​---
 layout: post
 title: Multi-Omics Factor Analysis (MOFA)
 author: CY
@@ -8,7 +7,6 @@ categories: [Biostatistics]
 share: false
 image:
   background: triangular.png 
-​---
 ---
 
 
