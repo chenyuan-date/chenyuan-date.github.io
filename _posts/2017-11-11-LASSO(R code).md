@@ -194,7 +194,7 @@ plot(cvfit5, main="Elastic Net")
 
 [LASSO_RIDGE_NET](http://www4.stat.ncsu.edu/~post/josh/LASSO_Ridge_Elastic_Net_-_Examples.html)    
 
-[[Variablity in cv.glmnet results](https://stats.stackexchange.com/questions/97777/variablity-in-cv-glmnet-results)](https://stats.stackexchange.com/questions/97777/variablity-in-cv-glmnet-results)     
+[Variablity in cv.glmnet results](https://stats.stackexchange.com/questions/97777/variablity-in-cv-glmnet-results)     
 
 
 
