@@ -13,6 +13,17 @@ image:
 
 
 
+```
+Surv：用于创建生存数据对象
+survfit：创建KM生存曲线或是Cox调整生存曲线
+survdiff：用于不同组的统计检验
+coxph：构建COX回归模型
+cox.zph：检验PH假设是否成立
+survreg：构建参数模型
+```
+
+
+
 ### 准备工作
 
 ```r
@@ -58,6 +69,8 @@ head(lung)
 #meal.cal:	 Calories consumed at meals
 #wt.loss:	 Weight loss in last six months
 ```
+
+
 
 ### 建立生存分析
 
@@ -118,6 +131,8 @@ summary(fit1, times=c(200, 400))
 ##   200    144      72    0.680  0.0311        0.622        0.744
 ##   400     57      54    0.377  0.0358        0.313        0.454
 ```
+
+
 
 ### 不同因子生存曲线的比较
 
@@ -184,6 +199,8 @@ surv_diff
 ## 
 ##  Chisq= 10.3  on 1 degrees of freedom, p= 0.00131
 ```
+
+
 
 ### 生存曲线可视化
 
