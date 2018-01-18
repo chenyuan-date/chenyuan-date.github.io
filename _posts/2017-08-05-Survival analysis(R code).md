@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Survival analysis
+title: Survival analysis --R code
 author: CY
 tags: [Survival_analysis]
 categories: 
@@ -340,7 +340,7 @@ COX回归结果解释
 ```
 1. z结果是wald检验的结果，z = coef/se(coef)，用于检验回归系数是否显著区别于0
 2. 回归系数(coef)
-3. 风险???(hazard ratio, HR): HR = exp(coef), 衡量协变量影响的程度
+3. 风险率(hazard ratio, HR): HR = exp(coef), 衡量协变量影响的程度
 4. 风险比的95%置信区间
 5. 对模型的整体分析，即评价模型是否有意义的三种检验(Likelihood ratio test, Wald test, Score (logrank) test)
 ```
