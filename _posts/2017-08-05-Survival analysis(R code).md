@@ -16,10 +16,10 @@ image:
 ```
 Surv：用于创建生存数据对象
 survfit：创建KM生存曲线或是Cox调整生存曲线
-survdiff：用于不同组的统计检验
-coxph：构建COX回归模型
-cox.zph：检验PH假设是否成立
-survreg：构建参数模型
+survdiff：用于不同组的统计检验 (非参数法)
+coxph：构建COX回归模型 (半参数法)
+cox.zph：检验PH假设是否成立 (半参数法)
+survreg：构建参数模型 (参数法)
 ```
 
 
@@ -315,6 +315,7 @@ as.data.frame(results)
 ```
 
 
+
 #### 多因素COX回归
 
 多个自变量是如何共同影响因变量
@@ -361,6 +362,8 @@ COX回归结果解释
 4. 风险比的95%置信区间
 5. 对模型的整体分析，即评价模型是否有意义的三种检验(Likelihood ratio test, Wald test, Score (logrank) test)
 ```
+
+
 
 #### COX模型等比性检验
 
