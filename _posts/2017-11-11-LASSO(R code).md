@@ -63,20 +63,41 @@ cvfit = cv.glmnet(train_matrix, train$y, family = "binomial", type.measure = "cl
 - family="binomial"适用于二元离散因变量(binary)          
 - family="multinomial"适用于多元离散因变量(category)       
 
-2. 参数lambda的值可以手动设置，不过函数glmnet()可以自动的给一个比较合适的lambda的向量，该向量的长度默认是100。          
+
+
+
+
+2. 参数lambda的值可以手动设置，不过函数glmnet()可以自动的给一个比较合适的lambda的向量，该向量的长度默认是100。        
+
+     
+
 
 
 3. type.measure用来指定交叉验证选取模型时希望最小化的目标参量，对于Logistic回归有以下几种选择:     
 
 - type.measure=deviance 使用deviance，即-2倍的Log-likelihood (default)                         
+
 - type.measure=mse 使用拟合因变量与实际应变量的mean squred error    
+
 - type.measure=mae 使用mean absolute error           
+
 - type.measure=class 使用模型分类的错误率(missclassification error)       
+
 - type.measure=auc 使用area under the ROC curve，是现在最流行的综合考量模型性能的一种参数    
 
+  ​
+
 4. nfolds设置把数据均分的份数，默认为10。或者用foldid指定每个fold的内容, 因为每个fold间的计算是独立的
+
+   ​
+
 5. parallel=TRUE可以开启并行计算功能来提高运算效率，需要先装载doParallel包。
+
+   ​
+
 6. 参数alpha控制选择的模型类型：当alpha = 0, 用ridge回归；当alpha = 1, 用lasso回归。
+
+   ​
 
 ### 绘制交叉验证图
 
