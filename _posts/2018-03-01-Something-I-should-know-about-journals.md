@@ -17,7 +17,7 @@ ISI每年出版JCR(期刊引用报告：Journal Citation Reports)。JCR对包括
 
 ###            影响因子
 
-**`IF` = (某刊前2年发表论文在该年的被引用次数) / (该刊前2年发表论文总数) **                      
+`IF = (某刊前2年发表论文在该年的被引用次数) / (该刊前2年发表论文总数) `                      
 
 一种刊物的影响因子越高，也即其刊载的文献被引用率越高，一方面说明这些文献报道的研究成果影响力大，另一方面也反映该刊物的学术水平高。因此，JCR以其大量的期刊统计数据及计算的影响因子等指数，而成为一种期刊评价工具。              
 
@@ -52,7 +52,7 @@ Lancet (Lancet, 47.831, 柳叶刀)
 Journal of the American Medical Association (JAMA, 44.405, 美国医学协会杂志)                     
 British Medical Journal (BMJ, 20.785, 英国医学杂志)                  
 
-[2017年与学科相关的的journal影响因子一览表]()        
+[2017年与学科相关的的journal影响因子一览表](https://github.com/chenyuan-date/Data/blob/master/IF%20of%20SCI%20journals(2017).docx)                 
 
 
 

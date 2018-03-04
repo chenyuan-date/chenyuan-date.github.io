@@ -3,9 +3,7 @@ layout: post
 title: Survival analysis --R code
 author: CY
 tags: [Survival_analysis]
-categories: 
-    - Statistics
-    - Plots
+categories: [Statistics]
 share: false
 image:
   background: triangular.png 
