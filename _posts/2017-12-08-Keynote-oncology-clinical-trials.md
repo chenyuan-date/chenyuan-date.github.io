@@ -2,8 +2,8 @@
 layout: post
 title: Keynote oncology clinical trials
 author: CY
-tags: [Biology]
-categories: [Biology]
+tags: [Study]
+categories: [Study]
 share: false
 image:
   background: triangular.png 

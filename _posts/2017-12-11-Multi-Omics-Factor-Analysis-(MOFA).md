@@ -2,8 +2,8 @@
 layout: post
 title: Multi-Omics Factor Analysis (MOFA)
 author: CY
-tags: [Biostatistics]
-categories: [Biostatistics]
+tags: [Study]
+categories: [Study]
 share: false
 image:
   background: triangular.png 

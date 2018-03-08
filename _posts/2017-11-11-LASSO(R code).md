@@ -2,8 +2,8 @@
 layout: post
 title: LASSO/Ridge/Elastic Net regression -- R codes
 author: CY
-tags: [Biostatistics]
-categories: [Biostatistics]
+tags: [Machine Learning]
+categories: [Machine Learning]
 share: false
 image:
   background: triangular.png 
@@ -69,7 +69,6 @@ cvfit = cv.glmnet(train_matrix, train$y, family = "binomial", type.measure = "cl
 
 2. 参数lambda的值可以手动设置，不过函数glmnet()可以自动的给一个比较合适的lambda的向量，该向量的长度默认是100。        
 
-     
 
 
 

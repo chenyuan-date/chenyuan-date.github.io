@@ -2,10 +2,8 @@
 layout: post
 title: Volcano plot
 author: CY
-tags: [Plots]
-categories: 
-    - R
-    - Plots
+tags: [Plot]
+categories: [Plot]
 share: false
 image:
   background: triangular.png 

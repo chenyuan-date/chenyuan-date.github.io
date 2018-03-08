@@ -2,7 +2,7 @@
 layout: post
 title: Glucose feeds the TCA cycle via circulating lactate
 author: CY
-tags: [Paper]
+tags: [Biology]
 categories: [Biology]
 share: false
 image:

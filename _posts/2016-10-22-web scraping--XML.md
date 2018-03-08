@@ -2,7 +2,7 @@
 layout: post            
 title: web scraping -- XML                         
 author: CY                            
-tags: [Website]                                      
+tags: [R]                                      
 categories: [R]                           
 share: false                              
 image:                                      
@@ -132,4 +132,3 @@ nbaplayer：选取nbaplayer元素所有的子节点
 ### references 
 [XML website](https://www.xml.com/)      
 [[R语言爬虫系列2|XML&XPath表达式与R爬虫应用](https://ask.hellobi.com/blog/louwill12/9807)       
- 

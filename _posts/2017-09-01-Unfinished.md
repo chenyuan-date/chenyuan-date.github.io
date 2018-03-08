@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Awesome websites
+title: Unfinished things
 author: CY
-tags: [R]
-categories: [Websites]
+tags: [Study]
+categories: [Study]
 share: false
 image:
   background: triangular.png 
@@ -23,21 +23,44 @@ image:
 
 
 
+Do I need to normalize values in multiple regression analysis?
 
+<https://www.quora.com/Do-I-need-to-normalize-values-in-multiple-regression-analysis>
+
+Does logistic regression require independent variables to be normal distributed?.
+
+<https://www.quora.com/Does-logistic-regression-require-independent-variables-to-be-normal-distributed>
+
+Should independent and dependent variables be normally distributed for linear regression?
+
+<https://www.quora.com/Should-independent-and-dependent-variables-be-normally-distributed-for-linear-regression>
+
+
+
+medical conference website, 这个网站会记录将要举行的与医学相关的国际会议
+
+<https://www.omicsonline.org/medical-conferences.php>
+
+
+
+Download a project directory from GitHub
+
+https://minhaskamal.github.io/DownGit/#/home 也可以用命令，但是在Windows下，用这个很方便
 
 
 
 1. [Excellent Rstudio cheatsheets collection](https://www.rstudio.com/resources/cheatsheets/)
 
 
+RStudio and GitHub 的配置
 
-2. 人工智能学术搜索引擎：[semantic scholar](https://www.semanticscholar.org/)
-
-因为懒，所以看好这个。因为Google出来的一堆陈旧文献，匹配不智能等我很早就想吐槽了呀。。。
-
+<https://www.r-bloggers.com/rstudio-and-github/>
 
 
-3. [Comprehensive Metabolomic Databases](http://metabolomicssociety.org/resources/metabolomics-databases)
+
+
+
+1. [Comprehensive Metabolomic Databases](http://metabolomicssociety.org/resources/metabolomics-databases)
 
 
 

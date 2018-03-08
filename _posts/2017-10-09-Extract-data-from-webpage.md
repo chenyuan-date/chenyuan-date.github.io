@@ -3,7 +3,7 @@ layout: post
 title: Extract webpage -- Example one
 author: CY
 tags: [R]
-categories: [Website crawler]
+categories: [R]
 share: false
 image:
   background: triangular.png 

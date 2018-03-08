@@ -1,10 +1,10 @@
 ---
 layout: post
-title: write better emails
+title: Email writing skills
 author: CY
 description: "The way and tips to write better emails"
-tags: [english]
-categories: [english]
+tags: [Study]
+categories: [Study]
 share: false
 image:
   background: triangular.png 

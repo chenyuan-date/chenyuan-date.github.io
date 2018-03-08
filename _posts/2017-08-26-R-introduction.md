@@ -2,8 +2,11 @@
 title: R introduction
 author: CY
 layout: post
-tags: [R plots]
-categories: [R plots]
+tags: [R]
+categories: [R]
+share: false
+image:
+  background: triangular.png 
 ---
 
 ### Rstudio

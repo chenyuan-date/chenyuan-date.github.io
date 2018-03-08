@@ -2,8 +2,8 @@
 layout: post
 title: Data cleaning 
 author: CY
-tags: [Data Mining]
-categories: [Big data]
+tags: [Study]
+categories: [Study]
 share: false
 image:
   background: triangular.png
@@ -81,7 +81,7 @@ image:
 + 维度太低----不适合挖掘
 
 + 无关信息----减少存储
- 
+
 + 字段冗余----一个字段是其他字段计算出来的，会造成相关系数为1或者主成因分析异常）
 
 + 多指标数值、单位不同----如GDP与城镇居民人均收入数值相差过大
@@ -92,11 +92,11 @@ image:
 
 	1. 主成分分析
 	2. 随机森林
-	
+
 #### 解决维度低或缺少维度问题
 
 解题思路：抽象，方法包括但不限于：
-	
+​	
 	1. 各种汇总，平均、加总、最大、最小等
 	2. 各种离散化，聚类、自定义分组等
 

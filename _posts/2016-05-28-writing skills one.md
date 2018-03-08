@@ -3,8 +3,8 @@ layout: post
 title: writing skills(1)
 author: CY
 description: "英文写作中的最常见“十大句式”"
-tags: [linux]
-categories: [linux]
+tags: [Study]
+categories: [Study]
 share: false
 image:
   background: triangular.png

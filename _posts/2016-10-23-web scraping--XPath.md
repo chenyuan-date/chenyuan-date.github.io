@@ -2,7 +2,7 @@
 layout: post            
 title: web scraping -- XPath                        
 author: CY                            
-tags: [Website]                                      
+tags: [R]                                      
 categories: [R]                           
 share: false                              
 image:                                      

@@ -2,8 +2,8 @@
 layout: post
 title: Survival analysis --R code
 author: CY
-tags: [Survival_analysis]
-categories: [Statistics]
+tags: [Biostatistics]
+categories: [Biostatistics]
 share: false
 image:
   background: triangular.png 

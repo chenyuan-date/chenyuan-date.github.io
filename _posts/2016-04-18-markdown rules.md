@@ -2,9 +2,8 @@
 layout: post
 title: markdown rules
 author: CY
-description: "Rules of markdown"
-tags: [markdown]
-categories: [web]
+tags: [Other]
+categories: [Other]
 share: false
 image:
   background: triangular.png
@@ -346,7 +345,7 @@ H<sub>2</sub>O
 | col 1 is      | left-alighed  |    $5 |
 {: rules="groups"}
 
-## others
+## 11.others
 
 ### 换行
 
@@ -359,7 +358,8 @@ H<sub>2</sub>O
 
 
 
-reference:   
+## Reference   
+
 <http://ibruce.info/2013/11/26/markdown/>      
 <https://github.com/guodongxiaren/README>               
 <http://www.tuicool.com/articles/zIJrEjn>    

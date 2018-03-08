@@ -2,10 +2,8 @@
 layout: post
 title: Survival analysis -- Theory 
 author: CY
-tags: [Survival_analysis]
-categories: 
-    - Statistics
-    - Plots
+tags: [Biostatistics]
+categories: [Biostatistics]
 share: false
 image:
   background: triangular.png 

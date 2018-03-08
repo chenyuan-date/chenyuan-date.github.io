@@ -3,8 +3,8 @@ layout: post
 title: Use .htaccess to limit IP address 
 author: CY
 description: "A method to limit IP address via .htaccess"
-tags: [web]
-categories: [web]
+tags: [Linux]
+categories: [Linux]
 share: false
 image:
   background: triangular.png
@@ -14,7 +14,7 @@ Sometimes, in order to avoid so many useless visit to your server, which may cau
 
 Create a file named .htaccess in the web directory, then add the following contents according to your purpose.
 
-# Block IP address  
+## Block IP address  
 
 ### Block certain IP address
 
@@ -50,7 +50,7 @@ deny from 222.222.222.100/200
 allow from all
 ```
 
-# Allow IP address 
+## Allow IP address 
 
 ### Allow certain IP address
 
@@ -86,7 +86,7 @@ allow from 222.222.222.100/200
 deny from all
 ```
 
-# Block certain website
+## Block certain website
 
 If you find some websites copy your blog, just block them!
 
@@ -98,5 +98,8 @@ allow from all
 
 This will block the visit from copy.com website, there is a dot before copy.com, this will block all its website (including second-level domain).
 
-Ref:        
-[http://www.sjyhome.com/htaccess/limit-the-ip-address.html](http://www.sjyhome.com/htaccess/limit-the-ip-address.html) 
+
+
+## Reference        
+
+[.htaccess根据IP地址限制访问](http://www.sjyhome.com/htaccess/limit-the-ip-address.html) 

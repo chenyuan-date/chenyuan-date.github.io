@@ -4,7 +4,7 @@ title: Correlation analysis
 author: CY
 description: "Correlation analysis"
 tags: [R]
-categories: [Statistics]
+categories: [R]
 share: false
 image:
   background: triangular.png 

@@ -2,8 +2,8 @@
 layout: post
 title: Logistic regression 
 author: CY
-tags: [Biostatistics]
-categories: [Biostatistics]
+tags: [Machine Learning]
+categories: [Machine Learning]
 share: false
 image:
   background: triangular.png

@@ -2,8 +2,8 @@
 layout: post
 title: Clinic trail
 author: CY
-tags: [Medical]
-categories: [Medical]
+tags: [Epidemiology]
+categories: [Epidemiology]
 share: false
 image:
   background: triangular.png 

@@ -2,8 +2,8 @@
 layout: post
 title: Compare and select machine learning models
 author: CY
-tags: [ML]
-categories: [Statistics]
+tags: [Machine Learning]
+categories: [Machine Learning]
 share: false
 image:
   background: triangular.png 

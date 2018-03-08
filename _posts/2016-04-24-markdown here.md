@@ -3,8 +3,8 @@ layout: post
 title: Markdown here
 author: CY
 description: "Write better formatted Email and Web messages with markdown here"
-tags: [markdown]
-categories: [web]
+tags: [Other]
+categories: [Other]
 share: false
 image:
   background: triangular.png
@@ -17,11 +17,19 @@ Markdown Here允许你在发送电子邮件之前用Markdown语法编辑并转�
 这对于那些不喜欢在撰写电邮时反复摆弄排版按钮的人无疑是好消息。它特别适合那些要在电子邮件中插入代码的程序员们，甚至支持语法高亮显示。对于数学家们而言，Markdown Here也支持转换TeX公式。
 
 [使用](resource://markdown_here_common/options.html)起来十分简易：  
-1. 在你的电子邮箱客户端的富文本编辑器中使用Github风格的 markdown。    
-2. 在编辑区右击然后选择 `Markdown Toggle`。    
-3. 你的电子邮件现在看起来非常漂亮! (它已经被检测并转换为HTML格式)   
-4. 如果你很满意这样的外观就直接发送吧。如果你想更改或者添加些什么，再次点击 `Markdown Toggle` 可以返回到你原始的Markdown文本。  
-5. 如有必要，重复以上步骤  
+1. 在浏览器安装markdown here插件
+
+2. 在你的电子邮箱客户端的富文本编辑器中使用Github风格的 markdown。    
+
+3. 在编辑区右击然后选择 `Markdown Toggle`。    
+
+4. 你的电子邮件现在看起来非常漂亮! (它已经被检测并转换为HTML格式)   
+
+5. 如果你很满意这样的外观就直接发送吧。如果你想更改或者添加些什么，再次点击 `Markdown Toggle` 可以返回到你原始的Markdown文本。  
+
+6. 如有必要，重复以上步骤  
+
+   ​
 
 Markdown Here 主要目标是为 Gmail 和 Thunderbird 服务，但它也可以在 Yahoo 和 Hotmail 正常使用。另外，它在 Google Group 和一些网站中也可以出色使用，比如Evernote/印象笔记的网页版，Blogger，Wordpress等！
 

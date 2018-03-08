@@ -2,10 +2,8 @@
 layout: post
 title: Forest plot for cox model
 author: CY
-tags: [Survival_analysis]
-categories: 
-    - Statistics
-    - Plots
+tags: [Plot]
+categories: [Plot]
 share: false
 image:
   background: triangular.png 

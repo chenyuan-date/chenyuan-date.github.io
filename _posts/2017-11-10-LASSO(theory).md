@@ -2,8 +2,8 @@
 layout: post
 title: LASSO/Ridge/Elastic Net regression -- Theory
 author: CY
-tags: [Biostatistics]
-categories: [Biostatistics]
+tags: [Machine Learning]
+categories: [Machine Learning]
 share: false
 image:
   background: triangular.png 
