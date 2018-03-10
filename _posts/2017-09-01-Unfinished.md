@@ -37,21 +37,6 @@ Should independent and dependent variables be normally distributed for linear re
 
 
 
-medical conference website, 这个网站会记录将要举行的与医学相关的国际会议
-
-<https://www.omicsonline.org/medical-conferences.php>
-
-
-
-Download a project directory from GitHub
-
-https://minhaskamal.github.io/DownGit/#/home 也可以用命令，但是在Windows下，用这个很方便
-
-
-
-1. [Excellent Rstudio cheatsheets collection](https://www.rstudio.com/resources/cheatsheets/)
-
-
 RStudio and GitHub 的配置
 
 <https://www.r-bloggers.com/rstudio-and-github/>
