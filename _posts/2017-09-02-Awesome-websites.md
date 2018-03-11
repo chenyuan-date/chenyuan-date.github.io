@@ -43,6 +43,16 @@ image:
 
 
 
+## Workshops
+
+[Canadian Bioinformatics Workshops](https://bioinformatics.ca/)该组织每年都会举办workshop，非常好，涵盖生信内容很多，slides也很好，值得学习。
+
+[Train at EMBL-EBI](https://www.ebi.ac.uk/training/handson)                      
+
+[Conference Listings: Life Sciences](https://www.conference-service.com/conferences/life-sciences.html)                      
+
+
+
 ## Github
 
 [Download a project directory from GitHub](https://minhaskamal.github.io/DownGit/#/home) 这个网址可以直接下载github的文件夹，只要输入网址即可。当然也可以用命令下载，但是在Windows下这个还是很方便的。
@@ -57,7 +67,11 @@ image:
 
 ## Cheat sheets
 
-[Excellent Rstudio cheatsheets collection](https://www.rstudio.com/resources/cheatsheets/)                            
+[Excellent Rstudio cheatsheets collection](https://www.rstudio.com/resources/cheatsheets/)          
+
+[ggplot2-cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf)                 
+
+[r reference card](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)                         
 
 [python cheatsheets](https://www.datacamp.com/community/data-science-cheatsheets)             
 
@@ -73,11 +87,7 @@ image:
 
 
 
-## Workshops
 
-[Canadian Bioinformatics Workshops](https://bioinformatics.ca/)该组织每年都会举办workshop，非常好，涵盖生信内容很多，slides也很好，值得学习。
 
-[Train at EMBL-EBI](https://www.ebi.ac.uk/training/handson)                      
 
-[Conference Listings: Life Sciences](https://www.conference-service.com/conferences/life-sciences.html)                      
 
