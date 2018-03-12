@@ -94,7 +94,7 @@ British Medical Journal (BMJ, 20.785, 英国医学杂志)
 
 #### [research gate](https://www.researchgate.net/) 
 
-经常在用的。个人经常用它来提醒你关注的科学家或者课题。谁发文章了，会立刻通知你，让你享受被虐的感觉。
+经常在用的。个人经常用它来提醒你关注的科学家或者课题。谁发文章了，会立刻通知你，让你享受被虐的酸爽。
 
 #### [Scopus](https://www.elsevier.com/solutions/scopus)                               
 
@@ -110,7 +110,7 @@ British Medical Journal (BMJ, 20.785, 英国医学杂志)
 
 
 
-###论文造假
+### 论文造假
 
 [pubpeer](https://pubpeer.com/)和[retractionwatch](http://retractiondatabase.org/)是两个著名的科研打假网站，文章被这个网站盯上，科研生涯就悲剧了。
 

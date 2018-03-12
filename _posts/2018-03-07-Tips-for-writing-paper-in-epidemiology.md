@@ -19,6 +19,8 @@ image:
 
 
 
+以下是在写流行病学方面文章需要的注意事项，从三个方面来总结：
+
 ## Introduction 
 
 Title, Introduction and Purpose               
