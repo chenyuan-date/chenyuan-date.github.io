@@ -56,7 +56,7 @@ Lancet (Lancet, 47.831, 柳叶刀)
 Journal of the American Medical Association (JAMA, 44.405, 美国医学协会杂志)                     
 British Medical Journal (BMJ, 20.785, 英国医学杂志)                  
 
-[2017年与学科相关的的journal影响因子一览表](https://github.com/chenyuan-date/Data/blob/master/Journal%20IF%202017.md.md)                 
+[2017年与学科相关的的journal影响因子一览表](https://github.com/chenyuan-date/Data/blob/master/Journal_IF_2017.md)                 
 
 
 
