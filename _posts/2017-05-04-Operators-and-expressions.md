@@ -29,7 +29,7 @@ image:
 ### Cheatsheet
 
 - `print(x, sep='y')`:  返回被 y 隔开的 x 
-- `input()`: 交互式的输入输出
+- `input()`: 交互式的输入输出。input函数从屏幕中录入的内容，属于字符串类型       
 - `len(x)`:  返回 x 的长度 (x 可以为字符串、列表、字典)
 - `type(x)`: 返回 x 的类型 (整数、浮点数、字符串、列表、字典…)
 
@@ -209,10 +209,13 @@ r"Newlines are indicated by \n"
 - `s.replace('e', 'i')`: 用 i 替换字符串中的所有 e
 - `s.split(x)`: 返回一个字符串被 x 拆分后产生的列表
 - `s.join(L)`: 返回一个由字符串 s 作为连接符将列表 L连接起来形成的新字符串
-- `s.strip()`: 去除掉字符串中的所有空格
+- `s.strip()`: 移除字符串头尾指定的字符 (默认为空格)，中间部分不会移除。返回移除字符串头尾指定的字符后生成的新字符串。   
+- `s.ljust(width[, fillchar])`: 返回一个原字符串左对齐,并使用 fillchar 填充至长度 width 的新字符串，fillchar 默认为空格。                                   
+- `s.rjust(width[, fillchar])`: 返回一个原字符串右对齐,并使用空格填充至长度 width 的新字符串。如果指定的长度小于字符串的长度则返回原字符串。                       
+-  `center(width, fillchar)`: 返回一个指定的宽度 width 居中的字符串，fillchar 为填充的字符，默认为空格。                                        
 
 
-
+ 
 
 
 ### 逻辑

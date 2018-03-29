@@ -11,18 +11,6 @@ image:
 
 
 
-## 简明 Python 教程
-
-[简明 Python 教程](https://bop.mol.uno/)                                    
-
-[Porting Python 2 Code to Python 3](https://docs.python.org/3/howto/pyporting.html)           
-
-[Writing code that runs under both Python2 and 3](https://wiki.python.org/moin/PortingToPy3k/BilingualQuickRef)                                   
-
-[Supporting Python 3: An in-depth guide](http://python3porting.com/)                              
-
-
-
 ## PhD Fun
 
 [PhD Comics](http://phdcomics.com/) 苦中作乐的PhD                                             
@@ -49,9 +37,11 @@ image:
 
 [Train at EMBL-EBI](https://www.ebi.ac.uk/training/handson)                      
 
-[Conference Listings: Life Sciences](https://www.conference-service.com/conferences/life-sciences.html)                      
+[Conference Listings: Life Sciences](https://www.conference-service.com/conferences/life-sciences.html)           
 
+[Heidelberg Center for Human Bioinformatics](https://www.hd-hub.de/course-dates)              
 
+​                   
 
 ## Github
 
@@ -65,17 +55,19 @@ image:
 
 
 
+## Dr. Steven Halls's breast cancer website
+
+一个加拿大的放射科学家，[Dr. Steven Halls，所建设的一个网站](http://breast-cancer.ca/)。网站以漫画的风格对乳腺癌基础知识进行科普，风趣幽默，值得一看。
+
+
+
 ## Cheat sheets
 
 [Excellent Rstudio cheatsheets collection](https://www.rstudio.com/resources/cheatsheets/)          
 
 [ggplot2-cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf)                 
 
-[r reference card](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)                         
-
-[python cheatsheets](https://www.datacamp.com/community/data-science-cheatsheets)             
-
-[python for beginners](http://www.pythonforbeginners.com/cheatsheet/)   
+[r reference card](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf)                                
 
 [Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/)     
 

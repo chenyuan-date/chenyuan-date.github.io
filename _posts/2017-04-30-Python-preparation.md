@@ -81,7 +81,7 @@ Python 标准库的规模非常庞大。它能够帮助你完成诸多事情，�
 
 有这两个工具，你可以不用安装，直接在网页上coding。我觉得对于初学者还是有帮助的，特别是对我这种不想在电脑上安装太多软件的人来说，好处大大滴。                                  
 
-[Jupyter](https://hub.mybinder.org/user/ipython-ipython-in-depth-ezdqr7df/notebooks/binder/Index.ipynb#)                                                                     
+[Jupyter](http://jupyter.org/try)，打开网页后点击 `try jupyterlab`                                                                           
 
 [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=8iU2gnJFItM1) 这个是chrome的一个插件，安装了之后就可以双击666了                                                         
 
@@ -89,11 +89,19 @@ Python 标准库的规模非常庞大。它能够帮助你完成诸多事情，�
 
 ##  Python学习资源
 
-[简明 Python 教程](https://bop.mol.uno/)                             
+[简明 Python 教程](https://bop.mol.uno/)                                   
 
-[python3-cookbook](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)              
+[python视频教程](https://morvanzhou.github.io/)             
 
-[Python tutorial ](http://www.pythondoc.com/pythontutorial3/index.html#)   
+[python学习社区](http://www.runoob.com/python3/python3-tutorial.html)     
+
+[Python for Data Analysis by Wes McKinney, published by O'Reilly Media](https://github.com/wesm/pydata-book)           
+
+[中文翻译版本](https://www.jianshu.com/p/04d180d90a3f)                                          
+
+[python3-cookbook](http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html)                                  
+
+[Python tutorial ](http://www.pythondoc.com/pythontutorial3/index.html#)               
 
 [Python教程 - 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)                   
 
@@ -107,19 +115,13 @@ Python 标准库的规模非常庞大。它能够帮助你完成诸多事情，�
 
 cheatsheets                             
 
-[python cheatsheets  ](https://www.datacamp.com/community/data-science-cheatsheets)                                                       
+[datacamp](https://www.datacamp.com/community/data-science-cheatsheets)                                                       
 
 [python for beginners  ](http://www.pythonforbeginners.com/cheatsheet/)                    
 
-[Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data  ](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/)                             
+[Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data  ](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/)                               
 
-[Python & R codes for common Machine Learning Algorithms](https://www.analyticsvidhya.com/blog/2015/09/full-cheatsheet-machine-learning-algorithms/)    
-
-[python 3 cheatsheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)                      
-
-http://sixthresearcher.com/wp-content/uploads/2016/12/Python3_reference_cheat_sheet.pdf
-
-http://www.cs.put.poznan.pl/csobaniec/software/python/py-qrc.html
+[python3 reference card](http://www.cs.put.poznan.pl/csobaniec/software/python/py-qrc.html)          
 
 ​      
 

@@ -15,7 +15,7 @@ image:
 
 推荐一个在线的jupyter notebook工具，可以直接在网页上coding and run。我觉得对于初学者还是有帮助的，特别是对我这种不想在电脑上安装太多软件的人来说，好处大大滴。     
 
-[Jupyter](https://hub.mybinder.org/user/ipython-ipython-in-depth-ezdqr7df/notebooks/binder/Index.ipynb#)            
+[Jupyter](http://jupyter.org/try) ， 打开网页后点击 `try jupyterlab`
 
 
 
@@ -130,9 +130,7 @@ jt -fs 200 -tfs 17 -t grade3 -f roboto -cellw 88% -dfs 12 -ofs 15 -T
 
 ## References
 
-[nbextensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions#installation)
-
-
+[nbextensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions#installation)                    
 
 [Jupyter notebook使用](http://blog.genesino.com/2017/12/jupyter/)                                                      
 
