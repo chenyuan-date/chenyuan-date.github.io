@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Penalized Regression Essentials
+title: Penalized Regression Ridge Lasso Elastic net
 author: CY
 tags: [Machine Learning]
 categories: [Machine Learning]
