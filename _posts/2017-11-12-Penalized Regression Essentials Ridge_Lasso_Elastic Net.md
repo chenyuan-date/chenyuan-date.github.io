@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Penalized Regression Essentials: Ridge, Lasso & Elastic Net
+title: Penalized Regression Essentials: Ridge, Lasso, Elastic Net
 author: CY
-description: "Penalized Regression Essentials: Ridge, Lasso & Elastic Net"
 tags: [Machine Learning]
 categories: [Machine Learning]
 share: false
-image:
+image:    
   background: triangular.png 
 ---
+
 
 
 
