@@ -38,7 +38,9 @@ image:
 
 ### 学习资源
 
-[Illustrator 用户指南](https://helpx.adobe.com/cn/illustrator/user-guide.html)              
+[Illustrator 用户指南](https://helpx.adobe.com/cn/illustrator/user-guide.html)               
+
+[illustrator快捷键](https://helpx.adobe.com/cn/illustrator/using/default-keyboard-shortcuts.html)                          
 
 [Illustrator CS6视频教程](http://www.51zxw.net/list.aspx?cid=403)             
 
