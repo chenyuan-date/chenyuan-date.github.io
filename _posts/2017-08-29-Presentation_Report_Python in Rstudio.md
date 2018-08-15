@@ -3,8 +3,8 @@ layout: post
 title: Presentation, Report, Python in Rstudio 
 author: CY
 description: "R studio"
-tags: [Study]
-categories: [Study]
+tags: [R]
+categories: [R]
 share: false
 image:
   background: triangular.png
