@@ -13,21 +13,21 @@ image:
 
 ## Rule for numbers in general 
 
-- Do not use numerical numbers at the  beginning of a sentence.            
+- Do not use numerical numbers at the  beginning of a sentence.                          
 
-  15% of genes ... => *Fifteen percent* of genes ...                       
+  15% of genes ... => *Fifteen percent* of genes ...                                              
 
-- Put a space between numbers and units: *75 kg*.         
+- Put a space between numbers and units: *75 kg*.                                
 
-- Usually use **two significant digits** for standard deviations and percentages, **two decimal places** for correlations.         
+- Usually use **two significant digits** for standard deviations and percentages, **two decimal places** for correlations.                                  
 
-  r = 0.45;  r= 0.08;  18%;  1.3%;  0.013%        
+  r = 0.45;  r= 0.08;  18%;  1.3%;  0.013%                                 
 
-- Two decimal digits of the mean and standard deviation should be consistent.
+- Two decimal digits of the mean and standard deviation should be consistent.                                     
 
-  Correct: 15600 `&plusmn;` 700; 20.020 `&plusmn;` 0.013                
+  Correct: 15600 ± 700; 20.020 ± 0.013                                           
 
-  False: 1.6 `&plusmn;` 0.07; 20 `&plusmn;` 13.1                            
+  False: 1.6 ± 0.07; 20 ± 13.1                                        
 
 
 ## 需要拼写出来的数字：
