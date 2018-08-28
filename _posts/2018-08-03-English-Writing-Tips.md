@@ -133,14 +133,6 @@ rather than
 
 
 
-## `while` vs. `whereas`
-
-- Both words can be used to show contrast            
-- `while` is more closely associated with time and duration.
-- `whereas` has more to do with contrast.
-
-
-
 ## Better expression 
 
 - one remaining question => `one outstanding issue` (悬而未决的问题)
@@ -149,20 +141,6 @@ rather than
 - the decreased expression => `the expression reduction`
 - A similar trend was observed => `We observed a similar trend` (尽量用主动而非被动)    
 - Reduced expression than => `Reduced expression as compared to`     
-
-
-
-## `Compared to` vs. `Compared with`
-
-Both of these phrases are used to look at two different items side by side, i.e., to compare them.           
-
-- `Compare to`: To compare something *to* something else is *to observe or point only to likenesses between them*. In other words, you are likening one thing to another, or you are making a comment about their similarities. (拟人)
-
-  > He compared their historic win to that of the 1992 Dream Team.
-
-- `Compared with`: To compare something *with* something else is *to place the items side by side, noting differences and similarities between them*.     
-
-  > They won the championship in a clean sweep, compared with last year’s game 7 loss.     
 
 
 
@@ -182,68 +160,72 @@ Both of these phrases are used to look at two different items side by side, i.e.
 
 
 
-## Frequently occurring language mistakes   
+
+
+## Frequently occurring mistakes   
 
 | Incorrect                                    | Correct                                      | Why?                                                         |
 | -------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ |
-| ~~**Researches were**conducted.~~            | **Research was**conducted.                   | **Research** is a non-count noun.                            |
-| ~~**Further**, the chance of bias is high.~~ | **Furthermore**, the chance of bias is high. | **Further** does not mean “in addition”; **furthermore**does |
+| ~~**Further**, the chance of bias is high.~~ | **Furthermore**, the chance of bias is high. | **Further** does not mean “in addition”; **furthermore **does |
 | ~~The **amount** of variables may change.~~  | The **number** of variables may change.      | Use **number** with countable nouns (e.g., changes), **amount** with non-count nouns (e.g., air). |
 | ~~**A MRI**, **a HR **directive~~            | **An MRI**, **an HR** directive              | An abbreviation that starts with a vowel sound takes “an.”   |
 | ~~The teenagers **that**~~                   | The teenagers **who**                        | Use **who** with people, **that** with things                |
+| ~~Politic~~                                  | Political                                    | Both economic and **political** factors were considered.     |
+| ~~Are both similar~~                         | Are similar                                  | Although the two cases **are** **similar**, they are not identical. |
+| ~~So called…, factor based…~~                | So-called…, factor-based…                    | The **so-called experts** only conducted **factor-based analyses**. |
+| ~~Specially~~                                | Especially                                   | The authors were **especially** interested in inflation pressures. |
+| ~~First of all, firstly~~                    | First                                        | **First**, all participants were given a survey.             |
+| ~~However …~~                                | However, …                                   | **However,** most theorists disagree.                        |
+| ~~Like~~                                     | Such as                                      | Northern cities **such as** Oslo and Helsinki have long, dark winters. |
+| ~~Besides, Next to~~                         | In addition to                               | **In addition to** building dams, the government also invested in roads. |
+| ~~From…till…~~                               | From…to…                                     | The ages ranged **from** 18 **to** 24.                       |
+| ~~In the light of~~                          | In light of                                  | The test was cancelled **in light of** the wind.             |
+| ~~Per~~                                      | By                                           | The participants were grouped **by** height.                 |
+| ~~To what extend~~                           | To what extent                               | It is not known **to what extent** the subjects were being truthful. |
+| ~~A person…their…~~                          | A person…his or her (or his/her)             | **A researcher** should cite **his or her** sources.         |
+| ~~You…~~                                     | One…                                         | If **one** reads the study, **one** may indeed be convinced  |
 
-#### Adjectives 
+#### 固定搭配： 
 
-| Incorrect                     | Correct                   | Example                                                      |
-| ----------------------------- | ------------------------- | ------------------------------------------------------------ |
-| ~~Are both similar~~          | Are similar               | Although the two cases **are** **similar**, they are not identical. |
-| ~~Politic~~                   | Political                 | Both economic and **political** factors were considered.     |
-| ~~So called…, factor based…~~ | So-called…, factor-based… | The **so-called experts** only conducted **factor-based analyses**. |
-| ~~Specially~~                 | Especially                | The authors were **especially** interested in inflation pressures. |
+**Insights into**          
 
-#### Capitalization
+**divide into**      
+
+#### 动词形式                  
+
+**choose - chose - chosen**       
+
+**send - sent - sent**           
+
+####单复数        
+
+`Research` 是不可数名词，搭配 `is` or `was`       
+
+**analysis - analyses (pl.)**
+
+**hypothesis - hypotheses (pl.)**
+
+**criterion - criteria (pl.)**  
+
+**datum - data (pl.)**          
+
+#### 
 
 | Incorrect                     | Correct                                                | Example                                                      |
 | ----------------------------- | ------------------------------------------------------ | ------------------------------------------------------------ |
 | ~~Results Of The Interviews~~ | Results of the interviews or Results of the Interviews | Additional information is presented in Table 9 (**Results of the interviews**). |
 
-## Conjunctions and linking terms
-
-| Incorrect                 | Correct    | Example                                                      |
-| ------------------------- | ---------- | ------------------------------------------------------------ |
-| ~~First of all, firstly~~ | First      | **First**, all participants were given a survey.             |
-| ~~However …~~             | However, … | **However,** most theorists disagree.                        |
-| ~~Like~~                  | Such as    | Northern cities **such as** Oslo and Helsinki have long, dark winters. |
-
 ## Nouns/noun phrases
 
 | Incorrect                                     | Correct                                     | Example                                                      |
 | --------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------ |
-| ~~Insights in~~                               | Insights into                               | The results offer valuable **insights into** the problem.    |
 | ~~MNC’s, PC’s~~                               | MNCs, PCs                                   | Most **MNCs** purchase thousands of **PCs** annually.        |
 | ~~One criteria~~                              | One criterion                               | Although **many criteria** were considered, **one criterion** stood out |
 | ~~Research conclusion~~                       | Research conclusions                        | Chapter 6 contains the **research** **conclusions**.         |
 | ~~Taxi’s, umbrella’s~~                        | Taxis, umbrellas                            | **Taxis** are often full of forgotten **umbrellas**.         |
 | ~~The childs behavior, the parents attitude~~ | The child’s behavior, the parents’ attitude | Although the **child’s behavior** was aggressive, her **parents’ attitude** was very relaxed. |
-| ~~Two analysis~~                              | Two analyses                                | **Several analyses** were conducted, but **one analysis** was most fruitful. |
-| ~~Two hypothesis~~                            | Two hypotheses                              | **This dissertation** proposes **many hypotheses**.          |
 
-## Prepositions/prepositional phrases
 
-| Incorrect            | Correct        | Example                                                      |
-| -------------------- | -------------- | ------------------------------------------------------------ |
-| ~~Besides, Next to~~ | In addition to | **In addition to** building dams, the government also invested in roads. |
-| ~~From…till…~~       | From…to…       | The ages ranged **from** 18 **to** 24.                       |
-| ~~In the light of~~  | In light of    | The test was cancelled **in light of** the wind.             |
-| ~~Per~~              | By             | The participants were grouped **by** height.                 |
-| ~~To what extend~~   | To what extent | It is not known **to what extent** the subjects were being truthful. |
-
-## Pronouns
-
-| Incorrect           | Correct                          | Example                                                     |
-| ------------------- | -------------------------------- | ----------------------------------------------------------- |
-| ~~A person…their…~~ | A person…his or her (or his/her) | **A researcher** should cite **his or her** sources.        |
-| ~~You…~~            | One…                             | If **one** reads the study, **one** may indeed be convinced |
 
 ## Punctuating numbers
 
@@ -266,32 +248,14 @@ Both of these phrases are used to look at two different items side by side, i.e.
 | ~~Et al, Et all.~~ | Et al.      | The mutation is thought to be widespread (Han **et al.**, 1999) |
 | ~~Et al. has~~     | Et al. have | Omar **et al. have** asserted that the effect is temporary.  |
 
+
+
 ## Verbs/phrasal verbs
 
-| Incorrect            | Correct         | Example                                                      |
-| -------------------- | --------------- | ------------------------------------------------------------ |
-| ~~Choose yesterday~~ | Chose yesterday | The project manager **chose** her team before planning began. |
-| ~~Divide in~~        | Divide into     | This dissertation is **divided** **into** seven sections.    |
-| ~~Lead yesterday~~   | Led yesterday   | Although the Liberals currently **lead** in the polls, the Conservatives **led** last week. |
-| ~~Make a photo~~     | Take a photo    | The time was set to **take photos** at 20-second intervals.  |
-| ~~Send yesterday~~   | Sent yesterday  | The email **was sent** to all employees.                     |
-
-## Words that are commonly confused
-
-| Which one to use?   | Correct                                                      | What’s usually the difference?         |
-| ------------------- | ------------------------------------------------------------ | -------------------------------------- |
-| Effect/affect       | The **effect** was strong; the drug **affected** all members of the experimental group. | Effect = noun Affect = verb            |
-| Personnel/personal  | The company’s **personnel** do not like to discuss their **personal** problems. | Personnel = noun Personal = adjective  |
-| Principal/principle | The **principal** author outlined the theories and **principles** that arose from the study. | Principal = adjective Principle = noun |
-| Were/where          | **Where were** you?                                          | Were = verb Where = adjective          |
-
-
-
-
-
-
-
-
+| Incorrect          | Correct       | Example                                                      |
+| ------------------ | ------------- | ------------------------------------------------------------ |
+| ~~Lead yesterday~~ | Led yesterday | Although the Liberals currently **lead** in the polls, the Conservatives **led** last week. |
+| ~~Make a photo~~   | Take a photo  | The time was set to **take photos** at 20-second intervals.  |
 
 
 
