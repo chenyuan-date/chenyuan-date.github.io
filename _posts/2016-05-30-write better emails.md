@@ -9,7 +9,10 @@ share: false
 image:
   background: triangular.png 
 ---
+
+
 ## 邮件标题（subject）
+
 The Subject Line is one of the most important parts of an e-mail. The subject line has three main purposes:  
 
 * <mark>Summarises the content of the e-mail</mark>    
@@ -18,8 +21,8 @@ The Subject Line is one of the most important parts of an e-mail. The subject li
 
 If you can, try and fit in all the critical details of your message into the subject line. If you are arranging a meeting, put the date and time. If you have made a decision, put it in the subject line.
 
-Examples of Good Subject Lines  
-​     
+​Examples of Good Subject Lines  
+     
 + Subject: Weekly Meeting moved to 2pm this Friday          
 + Subject: Purchase of new printer now approved          
 + Subject: 5 Ideas for Joanna's birthday present        
@@ -27,7 +30,7 @@ Examples of Good Subject Lines
 ## 称呼
 不知道对方姓名及性别情况下的称呼：Dear Madam/Sir,        
 Dear Prof. Zhang, (professor缩写加点，然后有个空格)          
-Dear Dr Zhang, (Doctor后有个空格)        
+Dear Dr. Zhang, (Doctor缩写加点，然后有个空格)        
 
 ## 知道To, Cc and Bcc的使用情景   
 You should always make sure you e-mail the right people, in the right way. The To, Cc and Bcc fields allow you to indicate how your message should be read by the people that receive it.
