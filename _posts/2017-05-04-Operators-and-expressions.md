@@ -88,36 +88,7 @@ image:
 
 #### 格式化方法
 
-一个字符串可以使用某些特定的格式。想要从其他信息中构建字符串，`format` 方法将被调用，使用这一方法中与之相应的参数替换这些格式。请注意，Python 从 0 开始计数，这意味着索引中的第一位是 0，第二位是 1，以此类推。             
-
-> Formating:  {selection : formating ! conversion}
->
-> `fillchar`  `alignment`  `sign`  `minwidth` . `precision ~ maxwidth`  `type`
->
-> *alignment*: < > ^ =
->
-> *sign*: + - space
->
-> *precision ~ maxwidth*: 0 at start for filling with 0
->
-> *type*: 
->
-> **integer**: b -- binary, c -- char, d -- decimal (default), o -- octal, x or X -- hexa…
->
-> **float**: e or E -- exponential, f or F -- fixed point, g or G -- appropriate (default), % -- percent
->
-> **string**: s ....
-
-
-
-```
-print('{0:.3f}'.format(1.0/3))   ==> 0.333
-
-# 使用下划线填充文本，并保持文字处于中间位置, 使用 (^) 定义 '___hello___'字符串长度为11
-print('{0:_^11}'.format('hello'))  ==> ___hello___
-"{:+2.3f}".format(45.7273)  ==> +45.727
-"{1:>10s}".format(8,"toto")  ==> '        toto'
-```
+参见更详细的：[Python formatted output](http://chenyuan.date/2017/05/Python-formatted-output/)              
 
  `print` 总是会以一个不可见的“新一行”字符（`\n`）结尾，因此重复调用 `print`将会在相互独立的一行中分别打印。为防止打印过程中出现这一换行符，可以通过 `end` 指定其应以空白结尾：
 
@@ -215,7 +186,7 @@ r"Newlines are indicated by \n"
 -  `center(width, fillchar)`: 返回一个指定的宽度 width 居中的字符串，fillchar 为填充的字符，默认为空格。                                        
 
 
- 
+
 
 
 ### 逻辑
