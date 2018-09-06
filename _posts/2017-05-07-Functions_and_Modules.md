@@ -174,7 +174,20 @@ print(print_max.__doc__)
 
 
 
-### `from...import` 语句
+### `import`载入模块的四种方法
+
+```
+1. import module  载入模块             
+# 需要用“module.函数名”来引出功能                               
+2. import module as __   重命名模块为__       
+# 需要用“__.函数名”来引出功能
+3. from module import functions  载入模块的部分函数      
+# 可以直接用函数名来引出功能
+4. from module import *   输入模块的所有功能     
+# 可以直接用函数名来引出功能
+```
+
+
 
 如果想直接将 `argv` 变量导入程序 (为了避免每次都要输入 `sys.`)，可以通过使用 `from sys import argv` 语句来实现。
 
