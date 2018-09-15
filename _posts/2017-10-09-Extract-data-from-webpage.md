@@ -181,7 +181,6 @@ for (i in 1:12) {
   xmldoc <- readHTMLTable(xmldoc, stringsAsFactors = F)
   xmldataframe <-  xmldoc[["NULL"]]
   df <- rbind(df, xmldataframe)
-  return(df)
 }
 ```
 
