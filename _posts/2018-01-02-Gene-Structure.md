@@ -11,7 +11,7 @@ image:
 
 
 
-![](/images/Organization of the human genome.png)
+![](/images/Organization of the human genome.png)     
 
 **Some numbers:** 
 
@@ -27,7 +27,7 @@ Genes can overlap with each other.
 
 ## Gene structure 
 
-![Gene structure](/images/Gene-structure-1.png)
+![Gene structure](/images/Gene-structure-1.png)       
 
 
 
@@ -35,21 +35,19 @@ Genes can overlap with each other.
 
 **UTR (UntranslatedRegions)**: 非翻译区，是信使RNA（mRNA）分子两端的非编码片段。UTR在DNA序列中属于外显子。      
 
-5'-UTR从mRNA起点的甲基化鸟嘌呤核苷酸帽延伸至AUG起始密码子，3'-UTR从编码区末端的终止密码子延伸至多聚A尾巴（Poly-A）的末端。 
+5'-UTR从mRNA起点的甲基化鸟嘌呤核苷酸帽延伸至AUG起始密码子，3'-UTR从编码区末端的终止密码子延伸至多聚A尾巴（Poly-A）的末端。              
 
-
-
-![Gene structure](/images/Gene-structure-2.jpg)
+![Gene structure](/images/Gene-structure-2.jpg)       
 
 
 
 ## Alternative splicing 
 
-![alternative splicing](/images/Alternative-splicing.jpg) 
+![alternative splicing](/images/Alternative-splicing.jpg)            
 
 
 
-**Relationship between transcripts and isoforms:**                     
+**Relationship between transcripts and isoforms:**                                
 
 It's the same thing, more or less. You can use "isoform" to refer to different versions of protein that originate from the same locus. And "transcript variant / alternative transcript" means different version of transcript. However, this is applicable not only for mRNAs, but also for lncRNAs.       
 
