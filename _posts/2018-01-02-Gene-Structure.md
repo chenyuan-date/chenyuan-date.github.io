@@ -11,7 +11,7 @@ image:
 
 
 
-![](../images/Organization of the human genome.png)
+![](/images/Organization of the human genome.png)
 
 **Some numbers:** 
 
@@ -27,7 +27,7 @@ Genes can overlap with each other.
 
 ## Gene structure 
 
-![Gene structure](../images/Gene-structure-1.png)
+![Gene structure](/images/Gene-structure-1.png)
 
 
 
@@ -39,19 +39,19 @@ Genes can overlap with each other.
 
 
 
-![Gene structure](../images/Gene-structure-2.jpg)
+![Gene structure](/images/Gene-structure-2.jpg)
 
 
 
 ## Alternative splicing 
 
-![alternative splicing](../images/Alternative-splicing.jpg) 
+![alternative splicing](/images/Alternative-splicing.jpg) 
 
 
 
-<table><tr><td bgcolor=orange>Relationship between transcripts and isoforms:</td></tr></table>
+**Relationship between transcripts and isoforms:**                     
 
-It's the same thing, more or less. You can use "isoform" to refer to different versions of protein that originate from the same locus. And "transcript variant / alternative transcript" means different version of transcript. However, this is applicable not only for mRNAs, but also for lncRNAs.
+It's the same thing, more or less. You can use "isoform" to refer to different versions of protein that originate from the same locus. And "transcript variant / alternative transcript" means different version of transcript. However, this is applicable not only for mRNAs, but also for lncRNAs.       
 
 
 

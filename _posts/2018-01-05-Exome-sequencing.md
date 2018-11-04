@@ -44,7 +44,7 @@ image:
 
 目前主要有**Illumina**、**Agilent**、**BGI**、罗氏**NimbleGen**四家的外显子捕获试剂。**NimbleGen**和**Illumina**使用的是**DNA探针**；**Agilent**和**BGI**使用的是**RNA探针**。其中以基于液相探针杂交捕获技术的Agilent平台最常用。Agilent SureSelect Human All Exon V6人全外显子捕获系统采用120-mer的RNA作为“诱饵”探针，能够高效地捕获带有SNV，InDel等突变的基因组序列。    
 
-![Aglient SureSelect外显子捕获系统](../images/Exome-Aglient SureSelect exome capture.png)    
+![Aglient SureSelect外显子捕获系统](/images/Exome-Aglient SureSelect exome capture.png)    
 
 Aglient SureSelect外显子捕获系统              
 
@@ -62,13 +62,13 @@ Aglient SureSelect外显子捕获系统
 
 全外显子组测序-信息分析-肿瘤方向
 
-![全外显子组测序-信息分析-肿瘤方向](../images/Exome-信息分析-肿瘤方向.png)
+![全外显子组测序-信息分析-肿瘤方向](/images/Exome-信息分析-肿瘤方向.png)
 
 
 
   全外显子组测序-信息分析-遗传病方向
 
-![全外显子组测序-信息分析-遗传病方向](../images/Exome-信息分析-遗传病方向.jpg)  
+![全外显子组测序-信息分析-遗传病方向](/images/Exome-信息分析-遗传病方向.jpg)  
 
 
 
