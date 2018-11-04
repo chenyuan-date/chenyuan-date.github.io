@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TRRUST: Transcriptional Regulatory Relationships    
+title: TRRUST： Transcriptional Regulatory Relationships    
 author: CY
 tags: [Bioinformatics]
 categories: [Bioinformatics]
@@ -8,6 +8,8 @@ share: false
 image:
   background: triangular.png 
 ---
+
+
 
 
 
