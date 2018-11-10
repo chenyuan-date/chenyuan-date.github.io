@@ -50,14 +50,13 @@ rm chr*
 
 ### Ensembl 下载
 
-ftp://ftp.ensembl.org/pub/release-91/fasta/homo_sapiens/dna/  
+[Ensembl](http://www.ensembl.org/info/data/ftp/index.html) 是常用的信息齐全的参考基因组和GTF文件下载网站。打开链接即可看到几个常用动物物种的DNA序列和GTF格式的基因组注释。点击相应物种后边的 `DNA(FASTA)` 栏目下的 `FASTA` 即可进入基因组序列下载目录。                                
 
-目录下有几类文件：                              
-分别是primary, toplevel和unmasked (dna)、soft-masked (dna_sm)和masked (dna_rm)。一般选择dna.primary或dna_sm.primary。               
+Ensembl 提供的参考基因组有2种组装形式 (`primary`，和 `toplevel`) 和3种重复序列处理方式 (`unmasked(dna)`、`soft-masked(dna_sm)` 和 `masked(dna_rm)`)。一般选择`dna.primary`或`dna_sm.primary`。                                     
 
 - 为什么选择Primary                            
 
-  Primary assembly contains all toplevel sequence regions excluding haplotypes and patches. This file is best used for performing sequence similarity searcheswhere patch and haplotype sequences would confuse analysis.                              
+  Primary assembly contains all top level sequence regions excluding haplotypes and patches. This file is best used for performing sequence similarity searches where patch and haplotype sequences would confuse analysis.                              
 
 - 为什么不选择masked                       
   Masked基因组是指所有重复区和低复杂区被N代替的基因组序列，比对时就不会有reads比对到这些区域。一般不推荐用masked的基因组，因为它造成了信息的丢失，由此带来的一个问题是uniquely比对到masked基因组上的reads实际上可能不是unique的。而且masked基因组还会带来比对错误，使得在允许错配的情况下，本来来自重复区的reads比对到基因组的其它位置。 另外检测重复区和低复杂区的软件不可能是完美的，这就造成遮盖住的重复序列和低复杂区并不一定是100%准确和敏感的                                      
@@ -83,19 +82,39 @@ done;
 
 ## 下载基因组注释文件
 
-下载GTF注释文件，基因组版本尤为重要。   
+基因注释`GTF`文件在分析转录组数据时会用到，下载GTF注释文件，基因组版本尤为重要。            
 
 ### Ensembl 下载
 
-- **FTP下载：**  ftp://ftp.ensembl.org/pub/release-91/gtf/       
+#### [**FTP下载**](http://www.ensembl.org/info/data/ftp/index.html)       
 
-- **BioMart下载:**
+点击该链接中对应物种后边 `Gene Sets` 目录下的 `GTF` 文件。        
 
-  > ENSEMBL数据库的BioMart http://www.ensembl.org/biomart/martview 工具为下载基因的功能信息、序列信息、结构信息、ID的转换等提供了很大的便利。
+```
+wget ftp://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh38.94.gtf.gz
+```
 
-注意在BioMart的Attribute选项里如果选择了蛋白相关的选项，得到的结果中只有蛋白编码基因的信息。如果要下载所有基因信息，请不要选择蛋白相关的选项。
+变幻中间的release就可以拿到所有版本信息：<ftp://ftp.ensembl.org/pub/>
 
-具体使用如下，下载基因相关信息，首先选择Ensembl Genes 89数据集
+Ensembl 中基因组和GTF文件中染色体的名字都没有添加`chr`，最好手动添加，以保持与`UCSC`或下游操作一致。                     
+
+#### [**BioMart下载**](http://www.ensembl.org/biomart/martview)
+
+ENSEMBL数据库的BioMart 工具为下载基因的功能信息、序列信息、结构信息、ID的转换等提供了很大的便利。       
+
+**注意在BioMart的Attribute选项里如果选择了蛋白相关的选项，得到的结果中只有蛋白编码基因的信息。如果要下载所有基因信息，请不要选择蛋白相关的选项。**      
+
+下载基因相关信息，可以选择 `Ensembl Genes 94` 数据集 --> `Human genes (GRCh38.p12)(下拉框中最先出现的关于人的)` 。
+
+如果下载全部的基因信息，左侧 `Filters` 部分可以略过不填。如果只想下载比如说某个GO通路的基因或给定列表的基因信息，可以在`Filters`中指定对应的`GO ID`。                            
+
+左侧 `Attribute` 中包含基因的名字、位置、注释、在不同数据库中的名字、GO注释、KEGG注释、功能域信息等，按需选择下载。选择好后，点击`Results`，获取结果。                          
+
+`Export al results to`选择存储到文件中。如果特别大，而自己网速又比较慢，可以选择通过`邮件发送下载链接`。                                          
+
+也可以通过Biomart提取基因结构 (点击`Structures`) 信息，比如5’ UTR、3’ UTR、外显子、内含子的坐标等。             
+
+Biomart下载很方便，但是一个个点击非常麻烦。在页面选项上边有 `XML` 按钮，点击打开看到选择的下载信息都记录在了这个文件中。使用`wget -O result.txt 'http://www.ensembl.org/biomart/martservice?query=` `+` `XML中的内容` (调整为一行，并且行尾加一个单引号) 即可反复使用。如果想换一个物种，只需修改对应的`Dataset name`即可。
 
 
 
@@ -107,16 +126,6 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/GFF/ref_GRCh38.p7_top_level
 # hg19
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/Homo_sapiens/ARCHIVE/BUILD.37.3/GFF/ref_GRCh37.p5_top_level.gff3.gz
 ```
-
-
-
-### ENSEMBL
-
-```
-wget ftp://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
-```
-
-变幻中间的release就可以拿到所有版本信息：<ftp://ftp.ensembl.org/pub/>
 
 
 
@@ -166,7 +175,7 @@ GENCODE (http://www.gencodegenes.org/) --> `Human` --> `Current Release/Release 
 
 
 
-## 下载外显子坐标文件
+## 下载外显子坐标 (CCDS) 文件
 
 [NCBI](https://www.ncbi.nlm.nih.gov/) --> `DNA & RNA` --> `Consensus CDS (CCDS)` --> `Announcements下的FTP site` --> `current human` --> `CCDS.current.txt`     
 
