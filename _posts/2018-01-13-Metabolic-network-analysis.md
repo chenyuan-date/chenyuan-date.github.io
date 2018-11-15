@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Network analysis      
+title: Metabolic network analysis      
 author: CY
 tags: [Bioinformatics]
 categories: [Bioinformatics]
