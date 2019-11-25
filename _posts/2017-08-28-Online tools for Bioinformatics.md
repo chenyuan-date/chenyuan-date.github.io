@@ -18,6 +18,13 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI5zAyB9byia0M3rw8Ocq3EsLBNYkEfVnc4DrZKFtDcVmicsacJxuEiayUw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+
+
+**升级版韦恩图**   
+[jvenn: 可做到6个](http://jvenn.toulouse.inra.fr/app/example.html)     
+
+
+
 ### 基因预测
 
 **工具：FGENESH**
@@ -25,6 +32,8 @@ image:
 **地址：http://linux1.softberry.com/berry.phtml?topic=fgenesh&group=programs&subgroup=gfind**
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI8wdzuL2KyMxNetP1kOKic7HKuTT0Upff2hoHWGsPLnr7MEyniaDAwyTg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
 
 ### phylogenetic
 
@@ -34,13 +43,26 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIozolWcz3au8DxZuiccAhFpwmpzzvhuwybHibZJaZBcIpgV8luYxqkjxQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+
+
+[**工具：Evolview v3**](https://www.evolgenius.info/evolview/)
+
+[**工具：在线构建进化树**](http://iqtree.cibiv.univie.ac.at/) 
+IQTREE Web Server: Fast and accurate phylogenetic trees under maximum likelihood
+
+
+
 ### 启动子区预测
 
 **工具：Promoter Scan**
 
 **地址：http://www.cbs.dtu.dk/services/Promoter/**
 
+
+
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIoZO8ibVOFT7DlnnM6Tb6jZ5hVQCAuwr8TV5AsZ2kicMEl0Uic8RxyoWwA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
 
 ### 蛋白质一级结构分析
 
@@ -50,11 +72,20 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI5tUNsNcygmcFMF17GzPHKxbiaU6AK1Pj4ZrZ3oMucKoCg6iaIyJ0uicrg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+
+
 **工具：ExPASy-ProtParam tool**
 
 **地址：http://web.expasy.org/protparam/**
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIkyWDKle7CNBjwzWS5p8eVT8hHsRicm2N1gQsw20SWC33apCagiaUJyqA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
+
+### 蛋白质磷酸化位点
+[**NetPhos 2.0**](http://www.cbs.dtu.dk/services/NetPhos/)
+
+
 
 ### 信号肽
 
@@ -64,13 +95,17 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIT0icqSeIialDLFeZn4pmljBN1aUnXeb5MtQPSWafLYiaoyv9s3KIdoSWg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+
+
 ### 跨膜结构域
 
-**工具：TMHMM Server v. 2.0******
+**工具：TMHMM Server v. 2.0**
 
 **地址：http://www.cbs.dtu.dk/services/TMHMM/**
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIUPBgVw72DnLNlSu51iaDHkFpxhWWXjTVSTcVjFYoCwBaFQHAxpfaZQQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
 
 ### 蛋白质亚细胞定位
 
@@ -79,6 +114,12 @@ image:
 **地址：http://psort.hgc.jp/form2.html**
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIO3z7kXV1deEian8lGe5qr8mpzRX4hK4wf8hQMlIPsHYvJQjWuYibAHHg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
+
+[**TargetP 1.1 Server**](http://www.cbs.dtu.dk/services/TargetP/) 
+
+
 
 ### 蛋白质三级结构预测
 
@@ -106,6 +147,18 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIHCzkHwrxKIuSkaqaCCkz31rjNlMaOFicbBn5mnTpuhUByvicS3lMg1Aw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+
+
+[**Ternary plot**](https://www.ternaryplot.com/)
+
+
+
+### 多序列比对可视化
+[**MView: A multiple alignment viewer**](https://www.ebi.ac.uk/Tools/msa/mview/)    
+[**AlignmentViewer**](https://alignmentviewer.org/)    
+
+
+
 ### 绘制GO注释结果
 
 **工具：WEGO**（Web Gene Ontology Annotation Plotting）
@@ -113,6 +166,13 @@ image:
 **地址：http://wego.genomics.org.cn/cgi-bin/wego/index.pl**
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVI6oTPkHZGvYBSx4PHg70CDkkyaTQ2fh8icrLa4BKY7UN3BsPbNkr43fg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
+
+### 元数据可视化
+[**Web-Igloo：Interactively visualizing multivariate data without feature decomposition**](http://121.241.184.233/webigloo/index.php)  
+
+
 
 ### 蛋白质domain
 
@@ -122,6 +182,8 @@ image:
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIK9RNx11czxH4UKBj6fR1LS6hiaNCpDQHVwVa8qUPvT1HxZbcqrsUCKQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
 
+
+
 ### 基因组杂合性评估
 
 **工具：GenomeScope**（Estimate genome heterozygosity, repeat content, and size from sequencing reads using a kmer-based statistical approach）
@@ -129,6 +191,8 @@ image:
 **地址：http://qb.cshl.edu/genomescope/analysis.php?code=example2**
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/6kvRq2WRXpia2AjL3icBibP6JGmWZdvgVVIhSDZdDeO7n7YSj6hsgEzcHx8YiaZofTzsiaCjn3nGUbnyVHecyibjiaZiag/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)
+
+
 
 ### circos图
 
