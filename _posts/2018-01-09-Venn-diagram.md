@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Venn Diagram
+title: Venn diagram
 author: CY
 description: "Venn diagram"
-tags: [R]
-categories: [R]
+tags: [Plot]
+categories: [Plot]
 share: false
 image:
   background: triangular.png 
@@ -77,7 +77,7 @@ venn.diagram(
 )
 ```
 
-![](../images/Venn1.png)
+![](/images/Venn1.png)
 
 
 
@@ -108,7 +108,7 @@ venn.diagram(
 )
 ```
 
-![](../images/Venn2.png)
+![](/images/Venn2.png)
 
 
 
@@ -128,4 +128,4 @@ plot(fit,
      main = "Euler Diagram")
 ```
 
-![](../images/Venn3.png)
+![](/images/Venn3.png)
